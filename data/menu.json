@@ -1,0 +1,752 @@
+[
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Fruit-n-Yogurt-Parfait.png?$THUMBNAIL_MEDIUM$",
+    "name": "Fruit 'N Yogurt Parfait",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/fruit-n-yogurt-parfait.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Egg-McMuffin.png?$THUMBNAIL_MEDIUM$",
+    "name": "Egg McMuffin®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/egg-mcmuffin.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-EggWhiteDelight.png?$THUMBNAIL_MEDIUM$",
+    "name": "Egg White Delight McMuffin®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/egg-white-delight.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-McMuffin.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sausage McMuffin®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-mcmuffin.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-McMuffin-with-Egg.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sausage McMuffin® with Egg",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-mcmuffin-with-egg.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Bacon-Egg-Cheese-Biscuit-Regular-Size-Biscuit.png?$THUMBNAIL_MEDIUM$",
+    "name": "Bacon, Egg  & Cheese Biscuit",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/bacon-egg-cheese-biscuit.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-Biscuit-Regular-Size-Biscuit.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sausage Biscuit",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-biscuit.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-Biscuit-with-Egg-Regular-Size-Biscuit.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sausage Biscuit  with Egg",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-biscuit-with-egg.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Steak-Egg-Biscuit-Regular-Biscuit.png?$THUMBNAIL_MEDIUM$",
+    "name": "Steak, Egg & Cheese Biscuit",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/steak-egg-cheese-biscuit.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Bacon-Egg-Cheese-McGriddles.png?$THUMBNAIL_MEDIUM$",
+    "name": "Bacon, Egg & Cheese McGriddles®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/bacon-egg-cheese-mcgriddles.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-McGriddles.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sausage McGriddles®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-mcgriddles.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-Egg-Cheese-McGriddles.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sausage, Egg & Cheese McGriddles®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-egg-cheese-mcgriddles.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Bacon-Egg-Cheese-Bagel.png?$THUMBNAIL_MEDIUM$",
+    "name": "Bacon, Egg & Cheese Bagel",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/bacon-egg-cheese-bagel.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/s-mcdonalds-Big-Breakfast-Regular-Size-Biscuit.png?$THUMBNAIL_MEDIUM$",
+    "name": "Big Breakfast®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/big-breakfast.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Big-Breakfast-with-Hotcakes-Regular-Size-Biscuit.png?$THUMBNAIL_MEDIUM$",
+    "name": "Big Breakfast® with Hotcakes",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/big-breakfast-with-hotcakes.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Hotcakes.png?$THUMBNAIL_MEDIUM$",
+    "name": "Hotcakes",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/hotcakes.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Hotcakes-and-Sausage.png?$THUMBNAIL_MEDIUM$",
+    "name": "Hotcakes and Sausage",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/hotcakes-and-sausage.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-Burrito.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sausage Burrito",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-burrito.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-HASH-BROWNS.png?$THUMBNAIL_MEDIUM$",
+    "name": "Hash Browns",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/hash-browns.html"
+  },
+  {
+    "category": "Breakfast",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Fruit-Maple-Oatmeal.png?$THUMBNAIL_MEDIUM$",
+    "name": "Fruit & Maple Oatmeal",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/fruit-maple-oatmeal.html"
+  },
+  {
+    "category": "Burgers",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-picoguac-sesame.png?$THUMBNAIL_MEDIUM$",
+    "name": "Pico Guacamole with 100% Pure Beef 1/4 lb. Patty",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/scr-pico-guacamole-burger-on-qp-bun-425-oz-patty.html"
+  },
+  {
+    "category": "Burgers",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-sweetbbqbacon-sesame.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sweet BBQ Bacon with 100% Pure Beef 1/4 lb. Patty",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sweet-bbq-bacon-burger-on-sesame-seed-bun-202504.html"
+  },
+  {
+    "category": "Burgers",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Big-Mac.png?$THUMBNAIL_MEDIUM$",
+    "name": "Big Mac®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/big-mac.html"
+  },
+  {
+    "category": "Burgers",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Quarter-Pounder-with-Cheese.png?$THUMBNAIL_MEDIUM$",
+    "name": "Quarter Pounder® with Cheese",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/quarter-pounder-with-cheese.html"
+  },
+  {
+    "category": "Burgers",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Double-Quarter-Pounder-with-Cheese.png?$THUMBNAIL_MEDIUM$",
+    "name": "Double Quarter Pounder® with Cheese",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/double-quarter-pounder-with-cheese.html"
+  },
+  {
+    "category": "Burgers",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Hamburger.png?$THUMBNAIL_MEDIUM$",
+    "name": "Hamburger",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/hamburger.html"
+  },
+  {
+    "category": "Burgers",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Cheeseburger.png?$THUMBNAIL_MEDIUM$",
+    "name": "Cheeseburger",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/cheeseburger.html"
+  },
+  {
+    "category": "Burgers",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Double-Cheeseburger.png?$THUMBNAIL_MEDIUM$",
+    "name": "Double Cheeseburger",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/double-cheeseburger.html"
+  },
+  {
+    "category": "Burgers",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McDouble.png?$THUMBNAIL_MEDIUM$",
+    "name": "McDouble®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mcdouble.html"
+  },
+  {
+    "category": "Burgers",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Bacon-McDouble.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "Bacon McDouble",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/bacon-mcdouble.html"
+  },
+  {
+    "category": "Burgers",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Triple-Cheeseburger.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "Triple Cheeseburger",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/triple-cheeseburger.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-buttermilkcrispytenders.png?$THUMBNAIL_MEDIUM$",
+    "name": "Buttermilk Crispy Tenders",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/buttermilk-crispy-chicken-tenders-4-piece.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-classicchickensandwich.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "Classic Chicken Sandwich",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/classic-chicken-sandwich.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-sweetbbqbacon-crispychicken-artisan.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sweet BBQ Bacon with Buttermilk Crispy Chicken",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sweet-bbq-bacon-buttermilk-crispy-chicken-on-artisan-roll.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-sweetbbqbacon-grilledchicken-artisan.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sweet BBQ Bacon with Artisan Grilled Chicken",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sweet-bbq-bacon-artisan-grilled-chicken-on-artisan-roll.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-picoguac-grilledchicken-artisan.png?$THUMBNAIL_MEDIUM$",
+    "name": "Pico Guacamole with Artisan Grilled Chicken",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/pico-guacamole-artisan-grilled-chicken-sandwich-on-artisan-roll.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-picoguac-crispychicken-artisan.png?$THUMBNAIL_MEDIUM$",
+    "name": "Pico Guacamole Buttermilk Crispy Chicken",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/pico-guacamole-buttermilk-crispy-chicken-sandwich-on-artisan-roll.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Chicken-McNuggets-4pc.png?$THUMBNAIL_MEDIUM$",
+    "name": "Chicken McNuggets®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/chicken-mcnuggets-4-piece.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Artisan-Grilled-Chicken-Sandwich.png?$THUMBNAIL_MEDIUM$",
+    "name": "Artisan Grilled Chicken Sandwich",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/artisan-grilled-chicken-sandwich.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Buttermilk-Crispy-Chicken-Deluxe-Sandwich.png?$THUMBNAIL_MEDIUM$",
+    "name": "Buttermilk Crispy Chicken Sandwich",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/buttermilk-crispy-chicken-sandwich.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McChicken.png?$THUMBNAIL_MEDIUM$",
+    "name": "McChicken®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mcchicken.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Filet-O-Fish.png?$THUMBNAIL_MEDIUM$",
+    "name": "Filet-O-Fish®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/filet-o-fish.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Bacon-Ranch-Salad-with-Buttermilk-Crispy-Chicken.png?$THUMBNAIL_MEDIUM$",
+    "name": "Bacon Ranch Salad with Buttermilk Crispy Chicken",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-bacon-ranch-salad-with-buttermilk-crispy-chicken.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Bacon-Ranch-Salad-with-Grilled-Chicken.png?$THUMBNAIL_MEDIUM$",
+    "name": "Bacon Ranch Grilled Chicken Salad",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-bacon-ranch-salad-with-grilled-chicken.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Southwest-Salad-with-Buttermilk-Crispy-Chicken.png?$THUMBNAIL_MEDIUM$",
+    "name": "Southwest Buttermilk Crispy Chicken Salad",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-southwest-salad-with-buttermilk-crispy-chicken.html"
+  },
+  {
+    "category": "Chicken & Sandwiches",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Southwest-Salad-with-Grilled-Chicken.png?$THUMBNAIL_MEDIUM$",
+    "name": "Southwest Grilled Chicken Salad",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-southwest-salad-with-grilled-chicken.html"
+  },
+  {
+    "category": "Salads",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Bacon-Ranch-Salad-with-Buttermilk-Crispy-Chicken.png?$THUMBNAIL_MEDIUM$",
+    "name": "Bacon Ranch Salad with Buttermilk Crispy Chicken",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-bacon-ranch-salad-with-buttermilk-crispy-chicken.html"
+  },
+  {
+    "category": "Salads",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Bacon-Ranch-Salad-with-Grilled-Chicken.png?$THUMBNAIL_MEDIUM$",
+    "name": "Bacon Ranch Grilled Chicken Salad",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-bacon-ranch-salad-with-grilled-chicken.html"
+  },
+  {
+    "category": "Salads",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Southwest-Salad-with-Buttermilk-Crispy-Chicken.png?$THUMBNAIL_MEDIUM$",
+    "name": "Southwest Buttermilk Crispy Chicken Salad",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-southwest-salad-with-buttermilk-crispy-chicken.html"
+  },
+  {
+    "category": "Salads",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Southwest-Salad-with-Grilled-Chicken.png?$THUMBNAIL_MEDIUM$",
+    "name": "Southwest Grilled Chicken Salad",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-southwest-salad-with-grilled-chicken.html"
+  },
+  {
+    "category": "Salads",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Side-Salad.png?$THUMBNAIL_MEDIUM$",
+    "name": "Side Salad",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/side-salad.html"
+  },
+  {
+    "category": "Snacks & Sides",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Fries-Small-Medium.png?$THUMBNAIL_MEDIUM$",
+    "name": "World Famous Fries®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/small-french-fries.html"
+  },
+  {
+    "category": "Snacks & Sides",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Apple-Slices.png?$THUMBNAIL_MEDIUM$",
+    "name": "Apple Slices",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/apple-slices.html"
+  },
+  {
+    "category": "Snacks & Sides",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Go-GURT-Strawberry-Flavored-Low-Fat-Yogurt-Tube.png?$THUMBNAIL_MEDIUM$",
+    "name": "Yoplait® GO-GURT® Low Fat Strawberry Yogurt",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/go-gurt-strawberry-flavored-low-fat-yogurt-tube.html"
+  },
+  {
+    "category": "Snacks & Sides",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Fruit-n-Yogurt-Parfait.png?$THUMBNAIL_MEDIUM$",
+    "name": "Fruit 'N Yogurt Parfait",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/fruit-n-yogurt-parfait.html"
+  },
+  {
+    "category": "Snacks & Sides",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Side-Salad.png?$THUMBNAIL_MEDIUM$",
+    "name": "Side Salad",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/side-salad.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Chocolate Shake",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/chocolate-shake-small.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Strawberry Shake",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-shake-small.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Vanilla-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Vanilla Shake",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/vanilla-shake-small.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Vanilla-Reduced-Fat-Ice-Cream-Cone.png?$THUMBNAIL_MEDIUM$",
+    "name": "Vanilla Cone",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/vanilla-cone.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Hot-Fudge-Sundae.png?$THUMBNAIL_MEDIUM$",
+    "name": "Hot Fudge Sundae",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/hot-fudge-sundae.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McFlurry-with-MMS-Chocolate-Candies-12floz-cup.png?$THUMBNAIL_MEDIUM$",
+    "name": "McFlurry® with M&M'S® Candies",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mcflurry-with-mms-chocolate-candies-12-fl-oz-cup.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Kiddie-Cone.png?$THUMBNAIL_MEDIUM$",
+    "name": "Kiddie Cone",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/kiddie-cone.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Hot-Caramel-Sundae.png?$THUMBNAIL_MEDIUM$",
+    "name": "Hot Caramel Sundae",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/hot-caramel-sundae.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Strawberry-Sundae.png?$THUMBNAIL_MEDIUM$",
+    "name": "Strawberry Sundae",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-sundae.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McFlurry-with-OREO-Cookies-12floz-cup.png?$THUMBNAIL_MEDIUM$",
+    "name": "McFlurry® with OREO® Cookies",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mcflurry-with-oreo-cookies-12-fl-oz-cup.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Baked-Hot-Apple-Pie.png?$THUMBNAIL_MEDIUM$",
+    "name": "Baked Apple Pie",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/baked-hot-apple-pie.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-STRAWBERRY-and-CREME-PIE.png?$THUMBNAIL_MEDIUM$",
+    "name": "Strawberry & Crème Pie",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-crme-pie.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Chocolate-Chip-Cookie.png?$THUMBNAIL_MEDIUM$",
+    "name": "Chocolate Chip Cookie",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/chocolate-chip-cookie.html"
+  },
+  {
+    "category": "Desserts & Shakes",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Oatmeal-Raisin-Cookie.png?$THUMBNAIL_MEDIUM$",
+    "name": "Oatmeal Raisin Cookie",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/oatmeal-raisin-cookie.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Roast-Iced-Coffee-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® French Vanilla Iced Coffee",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-french-vanilla-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-mccafe-caramel-iced-coffee.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Caramel Iced Coffee",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-caramel-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Latte",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/latte-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Fanta-orange.png?$THUMBNAIL_MEDIUM$",
+    "name": "Fanta® Orange",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/fanta-orange-small-abs.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Coca-Cola-Classic-Small.png?$THUMBNAIL_MEDIUM$",
+    "name": "Coca-Cola®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/coca-cola-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Chocolate Shake",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/chocolate-shake-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Strawberry Shake",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-shake-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Vanilla-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Vanilla Shake",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/vanilla-shake-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Diet-Coke-Small.png?$THUMBNAIL_MEDIUM$",
+    "name": "Diet Coke®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/diet-coke-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sprite-Small.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sprite®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sprite-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Iced-Tea-Large.png?$THUMBNAIL_MEDIUM$",
+    "name": "Iced Tea",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-tea-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Dr-Pepper-Small.png?$THUMBNAIL_MEDIUM$",
+    "name": "Dr Pepper®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/dr-pepper-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Frappe-Caramel-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé Caramel Frappé",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/frappe-caramel-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Frappe-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé Mocha Frappé",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/frappe-mocha-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Frappe-Chocolate-Chip-Medium.png?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Frappé Chocolate Chip",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/frappe-chocolate-chip-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Diet-Dr-Pepper-Small.png?$THUMBNAIL_MEDIUM$",
+    "name": "Diet Dr Pepper®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/diet-dr-pepper-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Strawberry-Banana-Smoothie-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Strawberry Banana Smoothie",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-banana-smoothie-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Mango-Pineapple-Smoothie-Small.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Mango Pineapple Smoothie",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mango-pineapple-smoothie-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sweet-Tea-Large.png?$THUMBNAIL_MEDIUM$",
+    "name": "Sweet Tea",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/sweet-tea-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-POWERade-Mountain-Blast-Medium.png?$THUMBNAIL_MEDIUM$",
+    "name": "POWERADE® Mountain Berry Blast®",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/powerade-mountain-blast-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Coffee-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Coffee",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/coffee-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Mocha",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mccaf-mocha-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Caramel-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Caramel Mocha",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mocha-caramel-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Hot-Chocolate-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Hot Chocolate",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/hot-chocolate-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Roast-Iced-Coffee-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé Iced Coffee",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Iced-Caramel-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Iced Caramel Mocha",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-caramel-mocha-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Iced-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Iced Mocha",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mccaf-iced-mocha-small.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Fat-Free-Chocolate-Milk-Jug.png?$THUMBNAIL_MEDIUM$",
+    "name": "Fat Free Chocolate Milk Jug",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/fat-free-chocolate-milk-jug.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-1-Low-Fat-Milk-Jug.png?$THUMBNAIL_MEDIUM$",
+    "name": "1% Low Fat Milk Jug",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/1-low-fat-milk-jug.html"
+  },
+  {
+    "category": "Drinks",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Dasani-Water.png?$THUMBNAIL_MEDIUM$",
+    "name": "Dasani® Water",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/dasani-water.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-caramel-macchiato.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Caramel Macchiato",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/caramel-macchiato-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-cappuccino.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Cappuccino",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/cappuccino-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-cappuccino.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Caramel Cappuccino",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/caramel-cappuccino-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-vanilla-cappuccino.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® French Vanilla Cappuccino",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/french-vanilla-cappuccino-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-americano.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Americano",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/espresso-americano-coffee-small-12-oz.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Iced-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Iced Mocha",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mccaf-iced-mocha-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Mocha",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mccaf-mocha-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Iced-Caramel-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Iced Caramel Mocha",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-caramel-mocha-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Caramel-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Caramel Mocha",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mocha-caramel-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-iced-latte.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Iced Latte",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mccaf-iced-latte-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Latte",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/latte-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Caramel Latte",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/latte-caramel-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® French Vanilla Latte",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/latte-french-vanilla-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Frappe-Caramel-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé Caramel Frappé",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/frappe-caramel-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Frappe-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé Mocha Frappé",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/frappe-mocha-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Coffee-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Coffee",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/coffee-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Roast-Iced-Coffee-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé Iced Coffee",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-mccafe-caramel-iced-coffee.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Caramel Iced Coffee",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-caramel-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Roast-Iced-Coffee-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® French Vanilla Iced Coffee",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-french-vanilla-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Chocolate Shake",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/chocolate-shake-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Vanilla-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Vanilla Shake",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/vanilla-shake-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Strawberry Shake",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-shake-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Strawberry-Banana-Smoothie-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Strawberry Banana Smoothie",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-banana-smoothie-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Mango-Pineapple-Smoothie-Small.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Mango Pineapple Smoothie",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/mango-pineapple-smoothie-small.html"
+  },
+  {
+    "category": "McCafé®",
+    "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Hot-Chocolate-Medium.jpg?$THUMBNAIL_MEDIUM$",
+    "name": "McCafé® Hot Chocolate",
+    "url": "https://www.mcdonalds.com/content/us/en-us/product/hot-chocolate-small.html"
+  }
+]
