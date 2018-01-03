@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "botbuilder-core": "^4.0.0-h4.2",
+    "botbuilder-prompts": "^4.0.0-h4.1",
     "botbuilder-services": "^4.0.0-h4.1",
     "restify": "^6.3.4"
   }
