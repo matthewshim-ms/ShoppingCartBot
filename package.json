@@ -9,9 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "botbuilder-ai": "^4.0.0-h4.1",
     "botbuilder-core": "^4.0.0-h4.2",
     "botbuilder-prompts": "^4.0.0-h4.1",
     "botbuilder-services": "^4.0.0-h4.1",
+    "fs": "0.0.1-security",
     "restify": "^6.3.4"
   }
 }
