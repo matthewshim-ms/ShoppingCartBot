@@ -44,6 +44,30 @@ function initLuisRecognizer () {
 let luisRecognizer = initLuisRecognizer();
 
 
+function resolveOneFromLuis(luisData){
+
+    let quantity;
+    let itemName; 
+
+    for(let i = 0; i < luisData.entities.length; i++){
+        if(luisData.entities[i].type == 'builtin.number'){
+            quantity = luisData.entities[i].value;
+            break;
+        }
+        else{
+            quantity = 1; 
+        }
+    }
+    // For now, only handle one 'item'
+    for(let i = 0; i < luisData.entities.length; i++){
+        if(luisData.entities[i].type == 'foodItem')
+        itemName = luisData.entities[i].value;
+    }
+
+    return {itemName, quantity};
+}
+
+
 const bot = new builder.Bot(botFrameworkAdapter)
     .use(new builder.ConsoleLogger())
     .use(new builder.MemoryStorage())
@@ -57,46 +81,36 @@ const bot = new builder.Bot(botFrameworkAdapter)
                 context.reply(`\nYour input generated the following LUIS results:`);
                 context.reply(`Intent name: ${luisData.name}\n\nScore: ${luisData.score}`);
 
+                // For testing, delete when in PROD
                 luisData.entities.forEach((entity) => {
 
                     context.reply(`Detected entity: \n\nType: ${entity.type}\n\nValue: ${entity.value}\n\nScore: ${entity.score}`);
                 });
 
                 if(luisData.name == 'CheckMenu'){
+
                     context.reply(formatAdaptiveCard(cards.foodMenu));
+
                 }else if(luisData.name == 'ViewCart'){
                     
                 }else if(luisData.name == 'AddItem'){
-                    
-                    let quantity;
-                    let itemName; 
 
-                    for(let i = 0; i < luisData.entities.length; i++){
-                        if(luisData.entities[i].type == 'builtin.number'){
-                            quantity = luisData.entities[i].value;
-                            break;
-                        }
-                        else{
-                            quantity = 1; 
-                        }
-                    }
-
-                    // For now, only handle one 'item'
-                    for(let i = 0; i < luisData.entities.length; i++){
-                        if(luisData.entities[i].type == 'foodItem')
-                        itemName = luisData.entities[i].value;
-                    }
-               
+                    let item = resolveOneFromLuis(luisData);
+           
                     // add Item to cart
-                    shoppingCart.addItem(context, itemName, quantity);
+                    shoppingCart.addItem(context, item.itemName, item.quantity);
                     console.log(context.state.user.shoppingCart);
 
                 }else if(luisData.name == 'CheckOut'){
 
                 }else if(luisData.name == 'Delete'){
 
-                }else if(luisDatan.name == 'UpdateItem'){
+                }else if(luisData.name == 'UpdateItem'){
+                    
+                    let item = resolveOneFromLuis(luisData);
 
+                    // Update Item in cart
+                    shoppingCart.updateItem(context, item.itemName, item.quantity);
                 }
                 
             })

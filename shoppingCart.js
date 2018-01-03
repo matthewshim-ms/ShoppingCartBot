@@ -50,7 +50,7 @@ module.exports = shoppingCart = {
             throw "sorry you don't have this item in your cart";
         }
 
-        item.count = count;
+        item.Count = count;
     },
 
     checkout: function(context){
