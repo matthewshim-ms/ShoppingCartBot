@@ -5,10 +5,7 @@ const prompts = require('botbuilder-prompts');
 const McDdata = require('./data/menu.json');
 const shoppingCart = require('./shoppingCart');
 let cards = require('./cards');
-
-
-// for LUIS
-const ai = require('botbuilder-ai');
+const ai = require('botbuilder-ai'); // LUIS
 
 // Create server
 let server = restify.createServer();
@@ -21,16 +18,6 @@ const botFrameworkAdapter = new services.BotFrameworkAdapter({
     appId: process.env.MICROSOFT_APP_ID, 
     appPassword: process.env.MICROSOFT_APP_PASSWORD });
 server.post('/api/messages', botFrameworkAdapter.listen());
-
-// Create Recognizer + intents
-// let recognizer = new builder.RegExpRecognizer();
-// recognizer.addIntent('CancelIntent', /(quit|cancel)/i);
-// recognizer.addIntent('MenuIntent', /(menu|Menu)/i);
-// recognizer.addIntent('ViewBurgers', /(burger|burgers)/i);
-// recognizer.addIntent('AddItemIntent', /(add|Add)/i);
-// recognizer.addIntent('DeleteIntent', /(delete|remove)/i);
-// recognizer.addIntent('CheckoutIntent', /(done|checkout|pay)/i);
-// recognizer.addIntent('UpdateItem', /(update)/i); 
 
 // Initialize bot by passing it adapter
 // - Add a logger to monitor bot.
@@ -58,7 +45,6 @@ let luisRecognizer = initLuisRecognizer();
 
 
 const bot = new builder.Bot(botFrameworkAdapter)
-    .use(luisRecognizer)
     .use(new builder.ConsoleLogger())
     .use(new builder.MemoryStorage())
     .use(new builder.BotStateManager())
@@ -72,8 +58,6 @@ const bot = new builder.Bot(botFrameworkAdapter)
                 context.reply(`Intent name: ${luisData.name}\n\nScore: ${luisData.score}`);
 
                 luisData.entities.forEach((entity) => {
-                    shoppingCart.addItem(context, entity.type, 1);
-                    shoppingCart.updateItem(context, entity.type, 2);
 
                     context.reply(`Detected entity: \n\nType: ${entity.type}\n\nValue: ${entity.value}\n\nScore: ${entity.score}`);
                 });
@@ -103,7 +87,9 @@ const bot = new builder.Bot(botFrameworkAdapter)
                         itemName = luisData.entities[i].value;
                     }
                
-                    console.log("quantity: " + quantity + "\n" + "name: " + itemName);
+                    // add Item to cart
+                    shoppingCart.addItem(context, itemName, quantity);
+                    console.log(context.state.user.shoppingCart);
 
                 }else if(luisData.name == 'CheckOut'){
 
