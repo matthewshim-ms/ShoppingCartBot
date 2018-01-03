@@ -70,6 +70,9 @@ const bot = new builder.Bot(botFrameworkAdapter)
                 context.reply(`\nYour input generated the following LUIS results:`);
                 context.reply(`Intent name: ${luisData.name}\n\nScore: ${luisData.score}`);
                 luisData.entities.forEach((entity) => {
+                    shoppingCart.addItem(context, entity.type, 1);
+                    shoppingCart.updateItem(context, entity.type, 2);
+
                     context.reply(`Detected entity: \n\nType: ${entity.type}\n\nValue: ${entity.value}\n\nScore: ${entity.score}`);
                 });
 
