@@ -5,6 +5,7 @@
     "name": "Fruit 'N Yogurt Parfait",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/fruit-n-yogurt-parfait.html",
     "categoryID": "snacks-sides",
+    "canCustomize": true,
     "ingredients": {
       "lowfat-yogurt": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/lowfat_yogurt.png",
@@ -38,6 +39,7 @@
       "sausage-mc-muffin-with-egg",
       "sausage-burrito"
     ],
+    "serveSizes": [],
     "tagLine": "Real fruit for a real treat."
   },
   "egg-mc-muffin": {
@@ -46,6 +48,7 @@
     "name": "Egg McMuffin®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/egg-mcmuffin.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "english-muffin": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/english_muffin.png",
@@ -86,6 +89,7 @@
       "fruit-maple-oatmeal",
       "mc-café-mocha-frappé"
     ],
+    "serveSizes": [],
     "tagLine": "The freshly-cracked classic."
   },
   "egg-white-delight-mc-muffin": {
@@ -94,6 +98,7 @@
     "name": "Egg White Delight McMuffin®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/egg-white-delight.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "english-muffin": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/english_muffin.png",
@@ -134,6 +139,7 @@
       "sprite",
       "diet-coke"
     ],
+    "serveSizes": [],
     "tagLine": "Destined to become a classic."
   },
   "sausage-mc-muffin": {
@@ -142,6 +148,7 @@
     "name": "Sausage McMuffin®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-mcmuffin.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "english-muffin": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/english_muffin.png",
@@ -175,6 +182,7 @@
       "sprite",
       "mc-café-mocha"
     ],
+    "serveSizes": [],
     "tagLine": "Sizzled Perfection."
   },
   "sausage-mc-muffin-with-egg": {
@@ -183,6 +191,7 @@
     "name": "Sausage McMuffin® with Egg",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-mcmuffin-with-egg.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "english-muffin": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/english_muffin.png",
@@ -223,6 +232,7 @@
       "mc-café-latte",
       "mc-café-coffee"
     ],
+    "serveSizes": [],
     "tagLine": "Hot and toasty."
   },
   "bacon-egg-cheese-biscuit": {
@@ -231,6 +241,7 @@
     "name": "Bacon, Egg & Cheese Biscuit",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/bacon-egg-cheese-biscuit.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "biscuit": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/biscuit.png",
@@ -272,6 +283,10 @@
       "sprite",
       "mc-café-caramel-frappé"
     ],
+    "serveSizes": [
+      "Regular Size",
+      "Large Size"
+    ],
     "tagLine": "Flaky, but in a good way."
   },
   "sausage-biscuit": {
@@ -280,6 +295,7 @@
     "name": "Sausage Biscuit",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-biscuit.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "biscuit": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/biscuit.png",
@@ -308,6 +324,10 @@
       "world-famous-fries",
       "sausage-burrito"
     ],
+    "serveSizes": [
+      "Regular Size",
+      "Large Size"
+    ],
     "tagLine": "Hot biscuit meets griddle sizzle."
   },
   "sausage-biscuit-with-egg": {
@@ -316,6 +336,7 @@
     "name": "Sausage Biscuit with Egg",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-biscuit-with-egg.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "biscuit": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/biscuit.png",
@@ -352,6 +373,10 @@
       "mc-café-mocha-frappé",
       "mc-café-caramel-frappé"
     ],
+    "serveSizes": [
+      "Classic Regular Size",
+      "Classic Large Size"
+    ],
     "tagLine": "Every bite is made to savor."
   },
   "steak-egg-cheese-biscuit": {
@@ -360,6 +385,7 @@
     "name": "Steak, Egg & Cheese Biscuit",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/steak-egg-cheese-biscuit.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "biscuit": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/biscuit.png",
@@ -405,6 +431,10 @@
       "coca-cola",
       "mc-café-iced-mocha"
     ],
+    "serveSizes": [
+      "Classic Regular Size",
+      "Classic Large Size"
+    ],
     "tagLine": "Wake with steak and eggs."
   },
   "bacon-egg-cheese-mc-griddles": {
@@ -413,6 +443,7 @@
     "name": "Bacon, Egg & Cheese McGriddles®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/bacon-egg-cheese-mcgriddles.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "griddle-cakes": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/McGriddles_top.png",
@@ -448,6 +479,7 @@
       "coca-cola",
       "mc-café-coffee"
     ],
+    "serveSizes": [],
     "tagLine": "Bacon, eggs and sweetness."
   },
   "sausage-mc-griddles": {
@@ -456,6 +488,7 @@
     "name": "Sausage McGriddles®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-mcgriddles.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "430",
@@ -471,6 +504,7 @@
       "mc-café-latte",
       "mc-café-coffee"
     ],
+    "serveSizes": [],
     "tagLine": "How sweet met savory."
   },
   "sausage-egg-cheese-mc-griddles": {
@@ -479,6 +513,7 @@
     "name": "Sausage, Egg & Cheese McGriddles®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-egg-cheese-mcgriddles.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "griddle-cakes": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/McGriddles_top.png",
@@ -514,6 +549,7 @@
       "sausage-burrito",
       "coca-cola"
     ],
+    "serveSizes": [],
     "tagLine": "Sweet dreams, savory mornings."
   },
   "bacon-egg-cheese-bagel": {
@@ -522,6 +558,7 @@
     "name": "Bacon, Egg & Cheese Bagel",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/bacon-egg-cheese-bagel.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "bagel": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/bagel.png",
@@ -567,6 +604,7 @@
       "1-low-fat-milk-jug",
       "mc-café-coffee"
     ],
+    "serveSizes": [],
     "tagLine": "A toasty ode to bacon and eggs."
   },
   "big-breakfast": {
@@ -575,6 +613,7 @@
     "name": "Big Breakfast®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/big-breakfast.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "scrambled-eggs": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/scrambled_eggs.png",
@@ -615,6 +654,7 @@
       "coca-cola",
       "mc-café-mocha"
     ],
+    "serveSizes": [],
     "tagLine": "Scrumptious knows no limits."
   },
   "big-breakfast-with-hotcakes": {
@@ -623,6 +663,7 @@
     "name": "Big Breakfast® with Hotcakes",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/big-breakfast-with-hotcakes.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "hotcakes": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/hotcake.png",
@@ -675,6 +716,7 @@
       "fat-free-chocolate-milk-jug",
       "chicken-mc-nuggets"
     ],
+    "serveSizes": [],
     "tagLine": "Add sweet to savory."
   },
   "hotcakes": {
@@ -683,6 +725,7 @@
     "name": "Hotcakes",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/hotcakes.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "hotcakes": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/hotcake.png",
@@ -712,6 +755,7 @@
       "mc-café-mocha-frappé",
       "mc-café-caramel-frappé"
     ],
+    "serveSizes": [],
     "tagLine": "Round, fluffy and pure gold."
   },
   "hotcakes-and-sausage": {
@@ -720,6 +764,7 @@
     "name": "Hotcakes and Sausage",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/hotcakes-and-sausage.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "hotcakes": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/hotcake.png",
@@ -753,6 +798,7 @@
       "sausage-burrito",
       "mc-café-frappé-mocha"
     ],
+    "serveSizes": [],
     "tagLine": "Stacked with sizzle."
   },
   "sausage-burrito": {
@@ -761,6 +807,7 @@
     "name": "Sausage Burrito",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-burrito.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "scrambled-egg-sausage-and-vegetable-mix": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/scrambled_egg_mix.png",
@@ -789,6 +836,7 @@
       "mc-café-latte",
       "mc-café-coffee"
     ],
+    "serveSizes": [],
     "tagLine": "Wrapped in deliciousness."
   },
   "hash-browns": {
@@ -797,6 +845,7 @@
     "name": "Hash Browns",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/hash-browns.html",
     "categoryID": "breakfast",
+    "canCustomize": false,
     "ingredients": {},
     "nutrition": {
       "calories": "150",
@@ -811,6 +860,7 @@
       "mc-café-coffee",
       "coca-cola"
     ],
+    "serveSizes": [],
     "tagLine": "Golden brown and crispy."
   },
   "fruit-maple-oatmeal": {
@@ -819,6 +869,7 @@
     "name": "Fruit & Maple Oatmeal",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/fruit-maple-oatmeal.html",
     "categoryID": "breakfast",
+    "canCustomize": true,
     "ingredients": {
       "oatmeal": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/oatmeal.png",
@@ -850,6 +901,7 @@
       "mc-café-coffee",
       "fruit-n-yogurt-parfait"
     ],
+    "serveSizes": [],
     "tagLine": "Whole oats. Wholesome breakfast."
   },
   "pico-guacamole-with-100-pure-beef-1-4-lb-patty": {
@@ -858,6 +910,7 @@
     "name": "Pico Guacamole with 100% Pure Beef 1/4 lb. Patty",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/scr-pico-guacamole-burger-on-qp-bun-425-oz-patty.html",
     "categoryID": "burgers",
+    "canCustomize": true,
     "ingredients": {
       "quarter-pound-100-beef-patty": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/4_1_patty.png",
@@ -899,6 +952,10 @@
       "protein": "29g"
     },
     "related": [],
+    "serveSizes": [
+      "Sesame Seed Bun",
+      "Artisan Roll"
+    ],
     "tagLine": "Juicy, Cool, Spicy."
   },
   "sweet-bbq-bacon-with-100-pure-beef-1-4-lb-patty": {
@@ -907,6 +964,7 @@
     "name": "Sweet BBQ Bacon with 100% Pure Beef 1/4 lb. Patty",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sweet-bbq-bacon-burger-on-sesame-seed-bun-202504.html",
     "categoryID": "burgers",
+    "canCustomize": true,
     "ingredients": {
       "quarter-pound-100-beef-patty": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/4_1_patty.png",
@@ -944,6 +1002,10 @@
       "protein": "38g"
     },
     "related": [],
+    "serveSizes": [
+      "Sesame Seed Bun",
+      "Artisan Roll"
+    ],
     "tagLine": "Tangy, Sweet, Juicy."
   },
   "big-mac": {
@@ -952,6 +1014,7 @@
     "name": "Big Mac®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/big-mac.html",
     "categoryID": "burgers",
+    "canCustomize": true,
     "ingredients": {
       "big-mac-bun": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/big_mac_bun.png",
@@ -1000,6 +1063,7 @@
       "mc-café-vanilla-shake",
       "mc-café-chocolate-shake"
     ],
+    "serveSizes": [],
     "tagLine": "The one and only."
   },
   "quarter-pounder-with-cheese": {
@@ -1008,6 +1072,7 @@
     "name": "Quarter Pounder® with Cheese",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/quarter-pounder-with-cheese.html",
     "categoryID": "burgers",
+    "canCustomize": true,
     "ingredients": {
       "quarter-pound-100-beef-patty": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/4_1_patty.png",
@@ -1053,6 +1118,7 @@
       "diet-dr-pepper",
       "dr-pepper"
     ],
+    "serveSizes": [],
     "tagLine": "Thick, juicy, cheesy."
   },
   "double-quarter-pounder-with-cheese": {
@@ -1061,6 +1127,7 @@
     "name": "Double Quarter Pounder® with Cheese",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/double-quarter-pounder-with-cheese.html",
     "categoryID": "burgers",
+    "canCustomize": true,
     "ingredients": {
       "quarter-pound-100-beef-patty": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/4_1_patty.png",
@@ -1106,6 +1173,7 @@
       "mc-café-coffee",
       "mc-café-chocolate-shake"
     ],
+    "serveSizes": [],
     "tagLine": "Twice the meat for twice the appetite."
   },
   "hamburger": {
@@ -1114,6 +1182,7 @@
     "name": "Hamburger",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/hamburger.html",
     "categoryID": "burgers",
+    "canCustomize": true,
     "ingredients": {
       "regular-bun": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/regular_bun.png",
@@ -1156,6 +1225,7 @@
       "mc-café-coffee",
       "mc-café-mocha-frappé"
     ],
+    "serveSizes": [],
     "tagLine": "The mouthwatering original."
   },
   "cheeseburger": {
@@ -1164,6 +1234,7 @@
     "name": "Cheeseburger",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/cheeseburger.html",
     "categoryID": "burgers",
+    "canCustomize": true,
     "ingredients": {
       "regular-bun": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/regular_bun.png",
@@ -1210,6 +1281,7 @@
       "sausage-mc-griddles",
       "bacon-mc-double"
     ],
+    "serveSizes": [],
     "tagLine": "The cheesy original."
   },
   "double-cheeseburger": {
@@ -1218,6 +1290,7 @@
     "name": "Double Cheeseburger",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/double-cheeseburger.html",
     "categoryID": "burgers",
+    "canCustomize": true,
     "ingredients": {
       "100-beef-patty": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/10_1_patty.png",
@@ -1263,6 +1336,7 @@
       "dr-pepper",
       "mc-café-strawberry-shake"
     ],
+    "serveSizes": [],
     "tagLine": "Meatier and cheesier."
   },
   "mc-double": {
@@ -1271,6 +1345,7 @@
     "name": "McDouble®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mcdouble.html",
     "categoryID": "burgers",
+    "canCustomize": true,
     "ingredients": {
       "100-beef-patty": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/10_1_patty.png",
@@ -1317,6 +1392,7 @@
       "chicken-mc-nuggets",
       "mc-café-vanilla-shake"
     ],
+    "serveSizes": [],
     "tagLine": "Two patties are better than one."
   },
   "bacon-mc-double": {
@@ -1325,6 +1401,7 @@
     "name": "Bacon McDouble",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/bacon-mcdouble.html",
     "categoryID": "burgers",
+    "canCustomize": true,
     "ingredients": {
       "100-beef-patty": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/10_1_patty.png",
@@ -1374,6 +1451,7 @@
       "mc-café-chocolate-shake",
       "sausage-mc-griddles"
     ],
+    "serveSizes": [],
     "tagLine": "Double the happiness, plus bacon."
   },
   "triple-cheeseburger": {
@@ -1382,6 +1460,7 @@
     "name": "Triple Cheeseburger",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/triple-cheeseburger.html",
     "categoryID": "burgers",
+    "canCustomize": true,
     "ingredients": {
       "100-beef-patty": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/10_1_patty.png",
@@ -1428,6 +1507,7 @@
       "sausage-mc-griddles",
       "bacon-mc-double"
     ],
+    "serveSizes": [],
     "tagLine": "The beefy"
   },
   "buttermilk-crispy-tenders": {
@@ -1436,6 +1516,7 @@
     "name": "Buttermilk Crispy Tenders",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/buttermilk-crispy-chicken-tenders-4-piece.html",
     "categoryID": "chicken-sandwiches",
+    "canCustomize": true,
     "ingredients": {
       "buttermilk-chicken-tenders": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/default.png",
@@ -1458,6 +1539,12 @@
       "bacon-mc-double",
       "sausage-mc-griddles"
     ],
+    "serveSizes": [
+      "4 piece",
+      "2 piece",
+      "6 piece",
+      "10 piece"
+    ],
     "tagLine": "Crispy, juicy & delicious."
   },
   "classic-chicken-sandwich": {
@@ -1466,6 +1553,7 @@
     "name": "Classic Chicken Sandwich",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/classic-chicken-sandwich.html",
     "categoryID": "chicken-sandwiches",
+    "canCustomize": true,
     "ingredients": {
       "buttermilk-crispy-chicken-filet": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/buttermilk_crispy_chicken.png",
@@ -1501,6 +1589,7 @@
       "bacon-mc-double",
       "mc-café-strawberry-banana-smoothie"
     ],
+    "serveSizes": [],
     "tagLine": ""
   },
   "sweet-bbq-bacon-with-buttermilk-crispy-chicken": {
@@ -1509,6 +1598,7 @@
     "name": "Sweet BBQ Bacon with Buttermilk Crispy Chicken",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sweet-bbq-bacon-buttermilk-crispy-chicken-on-artisan-roll.html",
     "categoryID": "chicken-sandwiches",
+    "canCustomize": true,
     "ingredients": {
       "buttermilk-crispy-chicken-filet": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/buttermilk_crispy_chicken.png",
@@ -1546,6 +1636,10 @@
       "protein": "40g"
     },
     "related": [],
+    "serveSizes": [
+      "Artisan Roll",
+      "Sesame Seed Bun"
+    ],
     "tagLine": "Tangy, Sweet, Crispy."
   },
   "sweet-bbq-bacon-with-artisan-grilled-chicken": {
@@ -1554,6 +1648,7 @@
     "name": "Sweet BBQ Bacon with Artisan Grilled Chicken",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sweet-bbq-bacon-artisan-grilled-chicken-on-artisan-roll.html",
     "categoryID": "chicken-sandwiches",
+    "canCustomize": true,
     "ingredients": {
       "artisan-grilled-chicken-filet": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/artisan_chicken.png",
@@ -1595,6 +1690,10 @@
       "protein": "49g"
     },
     "related": [],
+    "serveSizes": [
+      "Artisan Roll",
+      "Sesame Seed Bun"
+    ],
     "tagLine": "Tangy, Sweet, Perfection."
   },
   "pico-guacamole-with-artisan-grilled-chicken": {
@@ -1603,6 +1702,7 @@
     "name": "Pico Guacamole with Artisan Grilled Chicken",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/pico-guacamole-artisan-grilled-chicken-sandwich-on-artisan-roll.html",
     "categoryID": "chicken-sandwiches",
+    "canCustomize": true,
     "ingredients": {
       "artisan-grilled-chicken-filet": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/artisan_chicken.png",
@@ -1644,6 +1744,10 @@
       "protein": "43g"
     },
     "related": [],
+    "serveSizes": [
+      "Artisan Roll",
+      "Sesame Seed Bun"
+    ],
     "tagLine": "Spicy, Cool, Perfection."
   },
   "pico-guacamole-buttermilk-crispy-chicken": {
@@ -1652,6 +1756,7 @@
     "name": "Pico Guacamole Buttermilk Crispy Chicken",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/pico-guacamole-buttermilk-crispy-chicken-sandwich-on-artisan-roll.html",
     "categoryID": "chicken-sandwiches",
+    "canCustomize": true,
     "ingredients": {
       "buttermilk-crispy-chicken-filet": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/buttermilk_crispy_chicken.png",
@@ -1693,6 +1798,10 @@
       "protein": "34g"
     },
     "related": [],
+    "serveSizes": [
+      "Artisan Roll",
+      "Sesame Seed Bun"
+    ],
     "tagLine": "Spicy, Cool, Crispy."
   },
   "chicken-mc-nuggets": {
@@ -1701,6 +1810,7 @@
     "name": "Chicken McNuggets®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/chicken-mcnuggets-4-piece.html",
     "categoryID": "chicken-sandwiches",
+    "canCustomize": false,
     "ingredients": {},
     "nutrition": {
       "calories": "180",
@@ -1715,6 +1825,13 @@
       "diet-coke",
       "mc-café-vanilla-shake"
     ],
+    "serveSizes": [
+      "4 piece",
+      "6 piece",
+      "10 piece",
+      "20 piece",
+      "40 piece"
+    ],
     "tagLine": "Golden, tender and juicy."
   },
   "artisan-grilled-chicken-sandwich": {
@@ -1723,6 +1840,7 @@
     "name": "Artisan Grilled Chicken Sandwich",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/artisan-grilled-chicken-sandwich.html",
     "categoryID": "chicken-sandwiches",
+    "canCustomize": true,
     "ingredients": {
       "artisan-grilled-chicken-filet": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/artisan_chicken.png",
@@ -1764,6 +1882,7 @@
       "mc-café-strawberry-shake",
       "sprite"
     ],
+    "serveSizes": [],
     "tagLine": "Perfectly seasoned with just the right flavor."
   },
   "buttermilk-crispy-chicken-sandwich": {
@@ -1772,6 +1891,7 @@
     "name": "Buttermilk Crispy Chicken Sandwich",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/buttermilk-crispy-chicken-sandwich.html",
     "categoryID": "chicken-sandwiches",
+    "canCustomize": true,
     "ingredients": {
       "buttermilk-crispy-chicken-filet": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/buttermilk_crispy_chicken.png",
@@ -1809,6 +1929,7 @@
       "hash-browns",
       "mc-café-coffee"
     ],
+    "serveSizes": [],
     "tagLine": "Buttermilk crispy cookin’."
   },
   "mc-chicken": {
@@ -1817,6 +1938,7 @@
     "name": "McChicken®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mcchicken.html",
     "categoryID": "chicken-sandwiches",
+    "canCustomize": true,
     "ingredients": {
       "mcchicken-patty": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/mcchicken.png",
@@ -1851,6 +1973,7 @@
       "sausage-mc-griddles",
       "bacon-mc-double"
     ],
+    "serveSizes": [],
     "tagLine": "The classic crispy chicken sandwich."
   },
   "filet-o-fish": {
@@ -1859,6 +1982,7 @@
     "name": "Filet-O-Fish®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/filet-o-fish.html",
     "categoryID": "chicken-sandwiches",
+    "canCustomize": true,
     "ingredients": {
       "fish-filet-patty": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/fish.png",
@@ -1892,6 +2016,7 @@
       "sprite",
       "mc-café-chocolate-shake"
     ],
+    "serveSizes": [],
     "tagLine": "Catch one today."
   },
   "bacon-ranch-salad-with-buttermilk-crispy-chicken": {
@@ -1900,6 +2025,7 @@
     "name": "Bacon Ranch Salad with Buttermilk Crispy Chicken",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-bacon-ranch-salad-with-buttermilk-crispy-chicken.html",
     "categoryID": "salads",
+    "canCustomize": false,
     "ingredients": {
       "buttermilk-crispy-chicken-filet": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/buttermilk_crispy_chicken.png",
@@ -1937,6 +2063,7 @@
       "hi-c-orange-lavaburst",
       "mc-café-chocolate-shake"
     ],
+    "serveSizes": [],
     "tagLine": "Greens with fresh flavor."
   },
   "bacon-ranch-grilled-chicken-salad": {
@@ -1945,6 +2072,7 @@
     "name": "Bacon Ranch Grilled Chicken Salad",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-bacon-ranch-salad-with-grilled-chicken.html",
     "categoryID": "salads",
+    "canCustomize": false,
     "ingredients": {
       "artisan-grilled-chicken-filet": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/artisan_chicken.png",
@@ -1987,6 +2115,7 @@
       "mc-café-frappé-mocha",
       "mc-café-frappé-caramel"
     ],
+    "serveSizes": [],
     "tagLine": "Green, savory and grilled."
   },
   "southwest-buttermilk-crispy-chicken-salad": {
@@ -1995,6 +2124,7 @@
     "name": "Southwest Buttermilk Crispy Chicken Salad",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-southwest-salad-with-buttermilk-crispy-chicken.html",
     "categoryID": "salads",
+    "canCustomize": false,
     "ingredients": {
       "buttermilk-crispy-chicken-filet": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/buttermilk_crispy_chicken.png",
@@ -2040,6 +2170,7 @@
       "dr-pepper",
       "diet-dr-pepper"
     ],
+    "serveSizes": [],
     "tagLine": "Live life with zest."
   },
   "southwest-grilled-chicken-salad": {
@@ -2048,6 +2179,7 @@
     "name": "Southwest Grilled Chicken Salad",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/premium-southwest-salad-with-grilled-chicken.html",
     "categoryID": "salads",
+    "canCustomize": false,
     "ingredients": {
       "artisan-grilled-chicken-filet": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/artisan_chicken.png",
@@ -2097,6 +2229,7 @@
       "mc-café-frappé-caramel",
       "mc-café-frappé-mocha"
     ],
+    "serveSizes": [],
     "tagLine": "Add a little zest to your greens."
   },
   "side-salad": {
@@ -2105,6 +2238,7 @@
     "name": "Side Salad",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/side-salad.html",
     "categoryID": "snacks-sides",
+    "canCustomize": false,
     "ingredients": {},
     "nutrition": {
       "calories": "15",
@@ -2120,6 +2254,7 @@
       "diet-coke",
       "mc-double"
     ],
+    "serveSizes": [],
     "tagLine": "The perfect addition to any meal."
   },
   "world-famous-fries": {
@@ -2128,6 +2263,7 @@
     "name": "World Famous Fries®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/small-french-fries.html",
     "categoryID": "snacks-sides",
+    "canCustomize": false,
     "ingredients": {},
     "nutrition": {
       "calories": "230",
@@ -2143,6 +2279,12 @@
       "coca-cola",
       "diet-coke"
     ],
+    "serveSizes": [
+      "Kids",
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "The crisp, craveable, fan favorite."
   },
   "apple-slices": {
@@ -2151,6 +2293,7 @@
     "name": "Apple Slices",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/apple-slices.html",
     "categoryID": "snacks-sides",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "15",
@@ -2164,6 +2307,7 @@
       "cheeseburger",
       "sweet-tea"
     ],
+    "serveSizes": [],
     "tagLine": "Deliciousness in every slice."
   },
   "yoplait-go-gurt-low-fat-strawberry-yogurt": {
@@ -2172,6 +2316,7 @@
     "name": "Yoplait® GO-GURT® Low Fat Strawberry Yogurt",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/go-gurt-strawberry-flavored-low-fat-yogurt-tube.html",
     "categoryID": "snacks-sides",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "50",
@@ -2187,6 +2332,7 @@
       "diet-coke",
       "chicken-mc-nuggets"
     ],
+    "serveSizes": [],
     "tagLine": "A deliciously balanced part of your meal."
   },
   "mc-café-chocolate-shake": {
@@ -2195,6 +2341,7 @@
     "name": "McCafé® Chocolate Shake",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/chocolate-shake-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "vanilla-reduced-fat-ice-cream": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/vanilla_reduced_fat_cream.png",
@@ -2222,6 +2369,11 @@
       "bacon-ranch-salad-with-buttermilk-crispy-chicken",
       "world-famous-fries"
     ],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Chocolaty perfection."
   },
   "mc-café-strawberry-shake": {
@@ -2230,6 +2382,7 @@
     "name": "McCafé® Strawberry Shake",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-shake-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "vanilla-reduced-fat-ice-cream": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/vanilla_reduced_fat_cream.png",
@@ -2255,6 +2408,11 @@
       "world-famous-fries",
       "bacon-ranch-salad-with-buttermilk-crispy-chicken"
     ],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "A real sweetie."
   },
   "mc-café-vanilla-shake": {
@@ -2263,6 +2421,7 @@
     "name": "McCafé® Vanilla Shake",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/vanilla-shake-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "vanilla-reduced-fat-ice-cream": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/vanilla_reduced_fat_cream.png",
@@ -2289,6 +2448,11 @@
       "bacon-ranch-salad-with-buttermilk-crispy-chicken",
       "world-famous-fries"
     ],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "The creamy classic."
   },
   "vanilla-cone": {
@@ -2297,6 +2461,7 @@
     "name": "Vanilla Cone",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/vanilla-cone.html",
     "categoryID": "desserts-shakes",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "200",
@@ -2311,6 +2476,7 @@
       "diet-coke",
       "world-famous-fries"
     ],
+    "serveSizes": [],
     "tagLine": "Treat yourself."
   },
   "hot-fudge-sundae": {
@@ -2319,6 +2485,7 @@
     "name": "Hot Fudge Sundae",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/hot-fudge-sundae.html",
     "categoryID": "desserts-shakes",
+    "canCustomize": true,
     "ingredients": {
       "vanilla-reduced-fat-ice-cream": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/vanilla_reduced_fat_cream.png",
@@ -2347,6 +2514,7 @@
       "diet-coke",
       "chicken-mc-nuggets"
     ],
+    "serveSizes": [],
     "tagLine": "Cool and creamy meets warm fudge."
   },
   "mc-flurry-with-m-m-s-candies": {
@@ -2355,6 +2523,7 @@
     "name": "McFlurry® with M&M'S® Candies",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mcflurry-with-mms-chocolate-candies-12-fl-oz-cup.html",
     "categoryID": "desserts-shakes",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "630",
@@ -2369,6 +2538,10 @@
       "mc-café-coffee",
       "coca-cola"
     ],
+    "serveSizes": [
+      "Regular Size",
+      "Snack Size"
+    ],
     "tagLine": "It’s a sweet storm."
   },
   "kiddie-cone": {
@@ -2377,6 +2550,7 @@
     "name": "Kiddie Cone",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/kiddie-cone.html",
     "categoryID": "desserts-shakes",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "45",
@@ -2384,7 +2558,15 @@
       "carbs": "5g",
       "protein": "1g"
     },
-    "related": [],
+    "related": [
+      "cheeseburger",
+      "mc-chicken",
+      "world-famous-fries",
+      "apple-slices",
+      "coca-cola",
+      "chicken-mc-nuggets"
+    ],
+    "serveSizes": [],
     "tagLine": "A little sweet treat"
   },
   "hot-caramel-sundae": {
@@ -2393,6 +2575,7 @@
     "name": "Hot Caramel Sundae",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/hot-caramel-sundae.html",
     "categoryID": "desserts-shakes",
+    "canCustomize": true,
     "ingredients": {
       "vanilla-reduced-fat-ice-cream": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/vanilla_reduced_fat_cream.png",
@@ -2421,6 +2604,7 @@
       "mc-café-coffee",
       "chicken-mc-nuggets"
     ],
+    "serveSizes": [],
     "tagLine": "Drizzled with deliciousness."
   },
   "strawberry-sundae": {
@@ -2429,6 +2613,7 @@
     "name": "Strawberry Sundae",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-sundae.html",
     "categoryID": "desserts-shakes",
+    "canCustomize": true,
     "ingredients": {
       "vanilla-reduced-fat-ice-cream": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/vanilla_reduced_fat_cream.png",
@@ -2444,10 +2629,10 @@
       }
     },
     "nutrition": {
-      "calories": "0",
-      "fat": "0",
-      "carbs": "0",
-      "protein": "0"
+      "calories": "320",
+      "fat": "10g",
+      "carbs": "40g",
+      "protein": "8g"
     },
     "related": [
       "big-mac",
@@ -2457,6 +2642,7 @@
       "coca-cola",
       "chicken-mc-nuggets"
     ],
+    "serveSizes": [],
     "tagLine": "Sweet, tart and oh so creamy."
   },
   "mc-flurry-with-oreo-cookies": {
@@ -2465,6 +2651,7 @@
     "name": "McFlurry® with OREO® Cookies",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mcflurry-with-oreo-cookies-12-fl-oz-cup.html",
     "categoryID": "desserts-shakes",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "510",
@@ -2479,6 +2666,10 @@
       "apple-slices",
       "mc-café-coffee"
     ],
+    "serveSizes": [
+      "Regular Size",
+      "Snack Size"
+    ],
     "tagLine": "Best enjoyed with cookies."
   },
   "baked-apple-pie": {
@@ -2487,6 +2678,7 @@
     "name": "Baked Apple Pie",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/baked-hot-apple-pie.html",
     "categoryID": "desserts-shakes",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "230",
@@ -2501,6 +2693,7 @@
       "sweet-tea",
       "mc-double"
     ],
+    "serveSizes": [],
     "tagLine": "Golden baked goodness."
   },
   "strawberry-crème-pie": {
@@ -2509,6 +2702,7 @@
     "name": "Strawberry & Crème Pie",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-crme-pie.html",
     "categoryID": "desserts-shakes",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "290",
@@ -2524,6 +2718,7 @@
       "1-low-fat-milk-jug",
       "mc-café-coffee"
     ],
+    "serveSizes": [],
     "tagLine": "Sweet and creamy."
   },
   "chocolate-chip-cookie": {
@@ -2532,6 +2727,7 @@
     "name": "Chocolate Chip Cookie",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/chocolate-chip-cookie.html",
     "categoryID": "desserts-shakes",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "170",
@@ -2547,6 +2743,7 @@
       "1-low-fat-milk-jug",
       "mc-café-coffee"
     ],
+    "serveSizes": [],
     "tagLine": "Soft, chewy, warm and wonderful."
   },
   "oatmeal-raisin-cookie": {
@@ -2555,14 +2752,23 @@
     "name": "Oatmeal Raisin Cookie",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/oatmeal-raisin-cookie.html",
     "categoryID": "desserts-shakes",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
-      "calories": "140",
-      "fat": "5g",
-      "carbs": "22g",
-      "protein": "2g"
+      "calories": "0",
+      "fat": "0",
+      "carbs": "0",
+      "protein": "0"
     },
-    "related": [],
+    "related": [
+      "mc-double",
+      "big-mac",
+      "mc-chicken",
+      "southwest-grilled-chicken-salad",
+      "fat-free-chocolate-milk-jug",
+      "mc-café-coffee"
+    ],
+    "serveSizes": [],
     "tagLine": "Soft baked with sweetness."
   },
   "mc-café-french-vanilla-iced-coffee": {
@@ -2571,6 +2777,7 @@
     "name": "McCafé® French Vanilla Iced Coffee",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-french-vanilla-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "premium-roast-coffee": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/premium_roast_coffee_beans.png",
@@ -2596,6 +2803,11 @@
       "protein": "2g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Ice cold gets"
   },
   "mc-café-caramel-iced-coffee": {
@@ -2604,6 +2816,7 @@
     "name": "McCafé® Caramel Iced Coffee",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-caramel-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "premium-roast-coffee": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/premium_roast_coffee_beans.png",
@@ -2629,6 +2842,11 @@
       "protein": "3g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Ice cold gets"
   },
   "mc-café-latte": {
@@ -2637,6 +2855,7 @@
     "name": "McCafé® Latte",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/latte-small.html",
     "categoryID": "mc-café",
+    "canCustomize": false,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -2665,6 +2884,11 @@
       "bacon-egg-cheese-bagel",
       "fruit-n-yogurt-parfait"
     ],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Slow down. Sip. Enjoy."
   },
   "fanta-orange": {
@@ -2673,6 +2897,7 @@
     "name": "Fanta® Orange",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/fanta-orange-small-abs.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "170",
@@ -2681,6 +2906,12 @@
       "protein": "0g"
     },
     "related": [],
+    "serveSizes": [
+      "Extra Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Fun, fizzy, and delicious."
   },
   "coca-cola": {
@@ -2689,6 +2920,7 @@
     "name": "Coca-Cola®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/coca-cola-small.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "150",
@@ -2702,6 +2934,12 @@
       "southwest-buttermilk-crispy-chicken-salad",
       "world-famous-fries"
     ],
+    "serveSizes": [
+      "Extra Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "The burger’s companion."
   },
   "diet-coke": {
@@ -2710,18 +2948,25 @@
     "name": "Diet Coke®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/diet-coke-small.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "0",
-      "fat": "0",
-      "carbs": "0",
-      "protein": "0"
+      "fat": "0g",
+      "carbs": "0g",
+      "protein": "0g"
     },
     "related": [
       "big-mac",
       "mc-double",
       "mc-chicken",
       "world-famous-fries"
+    ],
+    "serveSizes": [
+      "Extra Small",
+      "Small",
+      "Medium",
+      "Large"
     ],
     "tagLine": "A refreshing idea."
   },
@@ -2731,6 +2976,7 @@
     "name": "Sprite®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sprite-small.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "150",
@@ -2744,6 +2990,12 @@
       "southwest-grilled-chicken-salad",
       "world-famous-fries"
     ],
+    "serveSizes": [
+      "Extra Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Refreshingly cool."
   },
   "iced-tea": {
@@ -2752,6 +3004,7 @@
     "name": "Iced Tea",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-tea-small.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "0",
@@ -2760,6 +3013,12 @@
       "protein": "0g"
     },
     "related": [],
+    "serveSizes": [
+      "Extra Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Refreshingly icy."
   },
   "dr-pepper": {
@@ -2768,12 +3027,13 @@
     "name": "Dr Pepper®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/dr-pepper-small.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
-      "calories": "140",
-      "fat": "0g",
-      "carbs": "38g",
-      "protein": "0g"
+      "calories": "0",
+      "fat": "0",
+      "carbs": "0",
+      "protein": "0"
     },
     "related": [
       "chicken-mc-nuggets",
@@ -2783,6 +3043,7 @@
       "bacon-egg-cheese-bagel",
       "buttermilk-crispy-chicken-sandwich"
     ],
+    "serveSizes": [],
     "tagLine": "Always One of a Kind.™"
   },
   "mc-café-caramel-frappé": {
@@ -2791,6 +3052,7 @@
     "name": "McCafé Caramel Frappé",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/frappe-caramel-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "ice": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/t-mcdonalds-ice.png",
@@ -2816,6 +3078,11 @@
       "protein": "7g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Cool. Creamy. Caramelly."
   },
   "mc-café-mocha-frappé": {
@@ -2824,6 +3091,7 @@
     "name": "McCafé Mocha Frappé",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/frappe-mocha-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "mocha-coffee-frappe-base": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/chocolate_shake_syrup.png",
@@ -2849,6 +3117,11 @@
       "protein": "7g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Mocha flavor in every sip."
   },
   "mc-café-frappé-chocolate-chip": {
@@ -2857,6 +3130,7 @@
     "name": "McCafé® Frappé Chocolate Chip",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/frappe-chocolate-chip-small.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "500",
@@ -2865,6 +3139,11 @@
       "protein": "8g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Bits of chips in every sip."
   },
   "diet-dr-pepper": {
@@ -2873,12 +3152,13 @@
     "name": "Diet Dr Pepper®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/diet-dr-pepper-small.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "0",
-      "fat": "0",
-      "carbs": "0",
-      "protein": "0"
+      "fat": "0g",
+      "carbs": "0g",
+      "protein": "0g"
     },
     "related": [
       "double-quarter-pounder-with-cheese",
@@ -2888,6 +3168,12 @@
       "buttermilk-crispy-chicken-sandwich",
       "bacon-egg-cheese-bagel"
     ],
+    "serveSizes": [
+      "Extra Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "It’s the Sweet One.™"
   },
   "mc-café-strawberry-banana-smoothie": {
@@ -2896,6 +3182,7 @@
     "name": "McCafé® Strawberry Banana Smoothie",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-banana-smoothie-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "strawberry-banana-fruit-base": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/strawberry_fruit_base.png",
@@ -2925,6 +3212,11 @@
       "sausage-mc-muffin-with-egg",
       "hash-browns"
     ],
+    "serveSizes": [
+      "12 fl oz cup",
+      "16 fl oz cup",
+      "22 fl oz cup"
+    ],
     "tagLine": "Sweet and smooth."
   },
   "mc-café-mango-pineapple-smoothie": {
@@ -2933,6 +3225,7 @@
     "name": "McCafé® Mango Pineapple Smoothie",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mango-pineapple-smoothie-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "mango-pineapple-fruit-base": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/mango_fruit_base.png",
@@ -2964,6 +3257,11 @@
       "sausage-mc-muffin-with-egg",
       "egg-mc-muffin"
     ],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Smooth, luscious and fruity."
   },
   "sweet-tea": {
@@ -2972,6 +3270,7 @@
     "name": "Sweet Tea",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sweet-tea-small.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "90",
@@ -2986,6 +3285,12 @@
       "southwest-buttermilk-crispy-chicken-salad",
       "hash-browns"
     ],
+    "serveSizes": [
+      "Extra Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "A tried and true refreshment."
   },
   "powerade-mountain-berry-blast": {
@@ -2994,6 +3299,7 @@
     "name": "POWERADE® Mountain Berry Blast®",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/powerade-mountain-blast-small.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "90",
@@ -3002,6 +3308,12 @@
       "protein": "0g"
     },
     "related": [],
+    "serveSizes": [
+      "Extra Small",
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Fuel to power through."
   },
   "mc-café-coffee": {
@@ -3010,6 +3322,7 @@
     "name": "McCafé® Coffee",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/coffee-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "0",
@@ -3025,6 +3338,11 @@
       "bacon-egg-cheese-bagel",
       "fruit-n-yogurt-parfait"
     ],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Invigorate your morning."
   },
   "mc-café-mocha": {
@@ -3033,6 +3351,7 @@
     "name": "McCafé® Mocha",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mccaf-mocha-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -3073,6 +3392,7 @@
       "bacon-egg-cheese-bagel",
       "fruit-n-yogurt-parfait"
     ],
+    "serveSizes": [],
     "tagLine": "Chocolaty espresso perfection."
   },
   "mc-café-caramel-mocha": {
@@ -3081,6 +3401,7 @@
     "name": "McCafé® Caramel Mocha",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mocha-caramel-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -3114,6 +3435,7 @@
       "protein": "9g"
     },
     "related": [],
+    "serveSizes": [],
     "tagLine": "Chocolate and caramel decadence."
   },
   "mc-café-hot-chocolate": {
@@ -3122,6 +3444,7 @@
     "name": "McCafé® Hot Chocolate",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/hot-chocolate-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -3147,6 +3470,7 @@
       "protein": "11g"
     },
     "related": [],
+    "serveSizes": [],
     "tagLine": "Warm up with chocolaty flavor."
   },
   "mc-café-iced-coffee": {
@@ -3155,6 +3479,7 @@
     "name": "McCafé Iced Coffee",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "liquid-sugar": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/liquid_sugar_syrup.png",
@@ -3180,6 +3505,7 @@
       "protein": "2g"
     },
     "related": [],
+    "serveSizes": [],
     "tagLine": "Ice cold coffee gets bold and creamy."
   },
   "mc-café-iced-caramel-mocha": {
@@ -3188,6 +3514,7 @@
     "name": "McCafé® Iced Caramel Mocha",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-caramel-mocha-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "ice": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/t-mcdonalds-ice.png",
@@ -3225,6 +3552,7 @@
       "protein": "7g"
     },
     "related": [],
+    "serveSizes": [],
     "tagLine": "Icy sweetness."
   },
   "mc-café-iced-mocha": {
@@ -3233,6 +3561,7 @@
     "name": "McCafé® Iced Mocha",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mccaf-iced-mocha-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -3270,6 +3599,7 @@
       "protein": "7g"
     },
     "related": [],
+    "serveSizes": [],
     "tagLine": "Deliciously chilly."
   },
   "fat-free-chocolate-milk-jug": {
@@ -3278,6 +3608,7 @@
     "name": "Fat Free Chocolate Milk Jug",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/fat-free-chocolate-milk-jug.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "130",
@@ -3292,6 +3623,7 @@
       "world-famous-fries",
       "egg-mc-muffin"
     ],
+    "serveSizes": [],
     "tagLine": "An excellent source of happiness®"
   },
   "1-low-fat-milk-jug": {
@@ -3300,12 +3632,13 @@
     "name": "1% Low Fat Milk Jug",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/1-low-fat-milk-jug.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
-      "calories": "0",
-      "fat": "0",
-      "carbs": "0",
-      "protein": "0"
+      "calories": "100",
+      "fat": "2.5g",
+      "carbs": "12g",
+      "protein": "8g"
     },
     "related": [
       "big-mac",
@@ -3315,6 +3648,7 @@
       "apple-slices",
       "world-famous-fries"
     ],
+    "serveSizes": [],
     "tagLine": "Packed with creamy goodness."
   },
   "dasani-water": {
@@ -3323,12 +3657,13 @@
     "name": "Dasani® Water",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/dasani-water.html",
     "categoryID": "drinks",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "0",
-      "fat": "0",
-      "carbs": "0",
-      "protein": "0"
+      "fat": "0g",
+      "carbs": "0g",
+      "protein": "0g"
     },
     "related": [
       "world-famous-fries",
@@ -3337,6 +3672,7 @@
       "side-salad",
       "mc-café-coffee"
     ],
+    "serveSizes": [],
     "tagLine": "Simply cool."
   },
   "mc-café-caramel-macchiato": {
@@ -3345,6 +3681,7 @@
     "name": "McCafé® Caramel Macchiato",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/caramel-macchiato-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -3374,6 +3711,11 @@
       "protein": "8g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Creamy, Caramel-y, & Smooth."
   },
   "mc-café-cappuccino": {
@@ -3382,6 +3724,7 @@
     "name": "McCafé® Cappuccino",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/cappuccino-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -3403,6 +3746,11 @@
       "protein": "6g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Sip by cozy sip."
   },
   "mc-café-caramel-cappuccino": {
@@ -3411,6 +3759,7 @@
     "name": "McCafé® Caramel Cappuccino",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/caramel-cappuccino-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -3436,6 +3785,11 @@
       "protein": "6g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Sip by cozy sip."
   },
   "mc-café-french-vanilla-cappuccino": {
@@ -3444,6 +3798,7 @@
     "name": "McCafé® French Vanilla Cappuccino",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/french-vanilla-cappuccino-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -3469,6 +3824,11 @@
       "protein": "6g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Sip by cozy sip."
   },
   "mc-café-americano": {
@@ -3477,6 +3837,7 @@
     "name": "McCafé® Americano",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/espresso-americano-coffee-small-12-oz.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {},
     "nutrition": {
       "calories": "0",
@@ -3485,6 +3846,11 @@
       "protein": "0g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Sip by cozy sip."
   },
   "mc-café-iced-latte": {
@@ -3493,6 +3859,7 @@
     "name": "McCafé® Iced Latte",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mccaf-iced-latte-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -3514,6 +3881,7 @@
       "protein": "6g"
     },
     "related": [],
+    "serveSizes": [],
     "tagLine": "Slow down. Sip. Enjoy."
   },
   "mc-café-caramel-latte": {
@@ -3522,6 +3890,7 @@
     "name": "McCafé® Caramel Latte",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/latte-caramel-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -3547,6 +3916,11 @@
       "protein": "8g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Slow down. Sip. Enjoy."
   },
   "mc-café-french-vanilla-latte": {
@@ -3555,6 +3929,7 @@
     "name": "McCafé® French Vanilla Latte",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/latte-french-vanilla-small.html",
     "categoryID": "mc-café",
+    "canCustomize": true,
     "ingredients": {
       "whole-milk": {
         "imageURL": "https://www.mcdonalds.com/content/dam/usa/nutrition/ingredients/regular/whole_milk.png",
@@ -3580,6 +3955,11 @@
       "protein": "8g"
     },
     "related": [],
+    "serveSizes": [
+      "Small",
+      "Medium",
+      "Large"
+    ],
     "tagLine": "Slow down. Sip. Enjoy."
   }
 }
