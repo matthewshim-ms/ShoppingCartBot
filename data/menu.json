@@ -45,7 +45,7 @@
   "egg-mc-muffin": {
     "category": "Breakfast",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Egg-McMuffin.png?$THUMBNAIL_MEDIUM$",
-    "name": "Egg McMuffin®",
+    "name": "Egg McMuffin",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/egg-mcmuffin.html",
     "categoryID": "breakfast",
     "canCustomize": true,
@@ -95,7 +95,7 @@
   "egg-white-delight-mc-muffin": {
     "category": "Breakfast",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-EggWhiteDelight.png?$THUMBNAIL_MEDIUM$",
-    "name": "Egg White Delight McMuffin®",
+    "name": "Egg White Delight McMuffin",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/egg-white-delight.html",
     "categoryID": "breakfast",
     "canCustomize": true,
@@ -145,7 +145,7 @@
   "sausage-mc-muffin": {
     "category": "Breakfast",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-McMuffin.png?$THUMBNAIL_MEDIUM$",
-    "name": "Sausage McMuffin®",
+    "name": "Sausage McMuffin",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-mcmuffin.html",
     "categoryID": "breakfast",
     "canCustomize": true,
@@ -188,7 +188,7 @@
   "sausage-mc-muffin-with-egg": {
     "category": "Breakfast",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-McMuffin-with-Egg.png?$THUMBNAIL_MEDIUM$",
-    "name": "Sausage McMuffin® with Egg",
+    "name": "Sausage McMuffin with Egg",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-mcmuffin-with-egg.html",
     "categoryID": "breakfast",
     "canCustomize": true,
@@ -440,7 +440,7 @@
   "bacon-egg-cheese-mc-griddles": {
     "category": "Breakfast",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Bacon-Egg-Cheese-McGriddles.png?$THUMBNAIL_MEDIUM$",
-    "name": "Bacon, Egg & Cheese McGriddles®",
+    "name": "Bacon, Egg & Cheese McGriddles",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/bacon-egg-cheese-mcgriddles.html",
     "categoryID": "breakfast",
     "canCustomize": true,
@@ -485,7 +485,7 @@
   "sausage-mc-griddles": {
     "category": "Breakfast",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-McGriddles.png?$THUMBNAIL_MEDIUM$",
-    "name": "Sausage McGriddles®",
+    "name": "Sausage McGriddles",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-mcgriddles.html",
     "categoryID": "breakfast",
     "canCustomize": true,
@@ -509,7 +509,7 @@
   "sausage-egg-cheese-mc-griddles": {
     "category": "Breakfast",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-Egg-Cheese-McGriddles.png?$THUMBNAIL_MEDIUM$",
-    "name": "Sausage, Egg & Cheese McGriddles®",
+    "name": "Sausage, Egg & Cheese McGriddles",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sausage-egg-cheese-mcgriddles.html",
     "categoryID": "breakfast",
     "canCustomize": true,
@@ -609,7 +609,7 @@
   "big-breakfast": {
     "category": "Breakfast",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/s-mcdonalds-Big-Breakfast-Regular-Size-Biscuit.png?$THUMBNAIL_MEDIUM$",
-    "name": "Big Breakfast®",
+    "name": "Big Breakfast",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/big-breakfast.html",
     "categoryID": "breakfast",
     "canCustomize": true,
@@ -659,7 +659,7 @@
   "big-breakfast-with-hotcakes": {
     "category": "Breakfast",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Big-Breakfast-with-Hotcakes-Regular-Size-Biscuit.png?$THUMBNAIL_MEDIUM$",
-    "name": "Big Breakfast® with Hotcakes",
+    "name": "Big Breakfast with Hotcakes",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/big-breakfast-with-hotcakes.html",
     "categoryID": "breakfast",
     "canCustomize": true,
@@ -1007,7 +1007,7 @@
   "big-mac": {
     "category": "Burgers",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Big-Mac.png?$THUMBNAIL_MEDIUM$",
-    "name": "Big Mac®",
+    "name": "Big Mac",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/big-mac.html",
     "categoryID": "burgers",
     "canCustomize": true,
@@ -1065,7 +1065,7 @@
   "quarter-pounder-with-cheese": {
     "category": "Burgers",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Quarter-Pounder-with-Cheese.png?$THUMBNAIL_MEDIUM$",
-    "name": "Quarter Pounder® with Cheese",
+    "name": "Quarter Pounder with Cheese",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/quarter-pounder-with-cheese.html",
     "categoryID": "burgers",
     "canCustomize": true,
@@ -1120,7 +1120,7 @@
   "double-quarter-pounder-with-cheese": {
     "category": "Burgers",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Double-Quarter-Pounder-with-Cheese.png?$THUMBNAIL_MEDIUM$",
-    "name": "Double Quarter Pounder® with Cheese",
+    "name": "Double Quarter Pounder with Cheese",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/double-quarter-pounder-with-cheese.html",
     "categoryID": "burgers",
     "canCustomize": true,
@@ -1338,7 +1338,7 @@
   "mc-double": {
     "category": "Burgers",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McDouble.png?$THUMBNAIL_MEDIUM$",
-    "name": "McDouble®",
+    "name": "McDouble",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mcdouble.html",
     "categoryID": "burgers",
     "canCustomize": true,
@@ -1799,7 +1799,7 @@
   "chicken-mc-nuggets": {
     "category": "Chicken & Sandwiches",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Chicken-McNuggets-4pc.png?$THUMBNAIL_MEDIUM$",
-    "name": "Chicken McNuggets®",
+    "name": "Chicken McNuggets",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/chicken-mcnuggets-4-piece.html",
     "categoryID": "chicken-sandwiches",
     "canCustomize": null,
@@ -1926,7 +1926,7 @@
   "mc-chicken": {
     "category": "Chicken & Sandwiches",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McChicken.png?$THUMBNAIL_MEDIUM$",
-    "name": "McChicken®",
+    "name": "McChicken",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mcchicken.html",
     "categoryID": "chicken-sandwiches",
     "canCustomize": true,
@@ -1970,7 +1970,7 @@
   "filet-o-fish": {
     "category": "Chicken & Sandwiches",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Filet-O-Fish.png?$THUMBNAIL_MEDIUM$",
-    "name": "Filet-O-Fish®",
+    "name": "Filet-O-Fish",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/filet-o-fish.html",
     "categoryID": "chicken-sandwiches",
     "canCustomize": true,
@@ -2250,7 +2250,7 @@
   "world-famous-fries": {
     "category": "Snacks & Sides",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Fries-Small-Medium.png?$THUMBNAIL_MEDIUM$",
-    "name": "World Famous Fries®",
+    "name": "World Famous Fries",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/small-french-fries.html",
     "categoryID": "snacks-sides",
     "canCustomize": null,
@@ -2301,7 +2301,7 @@
   "yoplait-go-gurt-low-fat-strawberry-yogurt": {
     "category": "Snacks & Sides",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Go-GURT-Strawberry-Flavored-Low-Fat-Yogurt-Tube.png?$THUMBNAIL_MEDIUM$",
-    "name": "Yoplait® GO-GURT® Low Fat Strawberry Yogurt",
+    "name": "Yoplait GO-GURT Low Fat Strawberry Yogurt",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/go-gurt-strawberry-flavored-low-fat-yogurt-tube.html",
     "categoryID": "snacks-sides",
     "canCustomize": true,
@@ -2323,9 +2323,9 @@
     "tagLine": "A deliciously balanced part of your meal."
   },
   "mc-café-chocolate-shake": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Chocolate Shake",
+    "name": "McCafé Chocolate Shake",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/chocolate-shake-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -2364,9 +2364,9 @@
     "tagLine": "Chocolaty perfection."
   },
   "mc-café-strawberry-shake": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Strawberry Shake",
+    "name": "McCafé Strawberry Shake",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-shake-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -2403,9 +2403,9 @@
     "tagLine": "A real sweetie."
   },
   "mc-café-vanilla-shake": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Vanilla-McCafe-Shake-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Vanilla Shake",
+    "name": "McCafé Vanilla Shake",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/vanilla-shake-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -2506,7 +2506,7 @@
   "mc-flurry-with-m-m-s-candies": {
     "category": "Desserts & Shakes",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McFlurry-with-MMS-Chocolate-Candies-12floz-cup.png?$THUMBNAIL_MEDIUM$",
-    "name": "McFlurry® with M&M'S® Candies",
+    "name": "McFlurry with M&M'S Candies",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mcflurry-with-mms-chocolate-candies-12-fl-oz-cup.html",
     "categoryID": "desserts-shakes",
     "canCustomize": true,
@@ -2632,7 +2632,7 @@
   "mc-flurry-with-oreo-cookies": {
     "category": "Desserts & Shakes",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McFlurry-with-OREO-Cookies-12floz-cup.png?$THUMBNAIL_MEDIUM$",
-    "name": "McFlurry® with OREO® Cookies",
+    "name": "McFlurry with OREO Cookies",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mcflurry-with-oreo-cookies-12-fl-oz-cup.html",
     "categoryID": "desserts-shakes",
     "canCustomize": true,
@@ -2751,9 +2751,9 @@
     "tagLine": "Soft baked with sweetness."
   },
   "mc-café-french-vanilla-iced-coffee": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Roast-Iced-Coffee-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® French Vanilla Iced Coffee",
+    "name": "McCafé French Vanilla Iced Coffee",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-french-vanilla-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -2789,9 +2789,9 @@
     "tagLine": "Ice cold gets"
   },
   "mc-café-caramel-iced-coffee": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-mccafe-caramel-iced-coffee.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Caramel Iced Coffee",
+    "name": "McCafé Caramel Iced Coffee",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-caramel-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -2827,9 +2827,9 @@
     "tagLine": "Ice cold gets"
   },
   "mc-café-latte": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Latte",
+    "name": "McCafé Latte",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/latte-small.html",
     "categoryID": "mc-café",
     "canCustomize": null,
@@ -2871,7 +2871,7 @@
   "fanta-orange": {
     "category": "Drinks",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Fanta-orange.png?$THUMBNAIL_MEDIUM$",
-    "name": "Fanta® Orange",
+    "name": "Fanta Orange",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/fanta-orange-small-abs.html",
     "categoryID": "drinks",
     "canCustomize": true,
@@ -2892,7 +2892,7 @@
   "coca-cola": {
     "category": "Drinks",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Coca-Cola-Classic-Small.png?$THUMBNAIL_MEDIUM$",
-    "name": "Coca-Cola®",
+    "name": "Coca-Cola",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/coca-cola-small.html",
     "categoryID": "drinks",
     "canCustomize": true,
@@ -2919,7 +2919,7 @@
   "diet-coke": {
     "category": "Drinks",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Diet-Coke-Small.png?$THUMBNAIL_MEDIUM$",
-    "name": "Diet Coke®",
+    "name": "Diet Coke",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/diet-coke-small.html",
     "categoryID": "drinks",
     "canCustomize": true,
@@ -2946,7 +2946,7 @@
   "sprite": {
     "category": "Drinks",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sprite-Small.png?$THUMBNAIL_MEDIUM$",
-    "name": "Sprite®",
+    "name": "Sprite",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/sprite-small.html",
     "categoryID": "drinks",
     "canCustomize": true,
@@ -2994,7 +2994,7 @@
   "dr-pepper": {
     "category": "Drinks",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Dr-Pepper-Small.png?$THUMBNAIL_MEDIUM$",
-    "name": "Dr Pepper®",
+    "name": "Dr Pepper",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/dr-pepper-small.html",
     "categoryID": "drinks",
     "canCustomize": true,
@@ -3021,7 +3021,7 @@
     "tagLine": "Always One of a Kind.™"
   },
   "mc-café-caramel-frappé": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Frappe-Caramel-Medium.jpg?$THUMBNAIL_MEDIUM$",
     "name": "McCafé Caramel Frappé",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/frappe-caramel-small.html",
@@ -3059,7 +3059,7 @@
     "tagLine": "Cool. Creamy. Caramelly."
   },
   "mc-café-mocha-frappé": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Frappe-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
     "name": "McCafé Mocha Frappé",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/frappe-mocha-small.html",
@@ -3099,7 +3099,7 @@
   "mc-café-frappé-chocolate-chip": {
     "category": "Drinks",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Frappe-Chocolate-Chip-Medium.png?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Frappé Chocolate Chip",
+    "name": "McCafé Frappé Chocolate Chip",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/frappe-chocolate-chip-small.html",
     "categoryID": "drinks",
     "canCustomize": true,
@@ -3119,7 +3119,7 @@
   "diet-dr-pepper": {
     "category": "Drinks",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Diet-Dr-Pepper-Small.png?$THUMBNAIL_MEDIUM$",
-    "name": "Diet Dr Pepper®",
+    "name": "Diet Dr Pepper",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/diet-dr-pepper-small.html",
     "categoryID": "drinks",
     "canCustomize": true,
@@ -3146,9 +3146,9 @@
     "tagLine": "It’s the Sweet One.™"
   },
   "mc-café-strawberry-banana-smoothie": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Strawberry-Banana-Smoothie-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Strawberry Banana Smoothie",
+    "name": "McCafé Strawberry Banana Smoothie",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/strawberry-banana-smoothie-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3189,9 +3189,9 @@
     "tagLine": "Sweet and smooth."
   },
   "mc-café-mango-pineapple-smoothie": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Mango-Pineapple-Smoothie-Small.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Mango Pineapple Smoothie",
+    "name": "McCafé Mango Pineapple Smoothie",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mango-pineapple-smoothie-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3264,7 +3264,7 @@
   "powerade-mountain-berry-blast": {
     "category": "Drinks",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-POWERade-Mountain-Blast-Medium.png?$THUMBNAIL_MEDIUM$",
-    "name": "POWERADE® Mountain Berry Blast®",
+    "name": "POWERADE Mountain Berry Blast",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/powerade-mountain-blast-small.html",
     "categoryID": "drinks",
     "canCustomize": true,
@@ -3283,9 +3283,9 @@
     "tagLine": "Fuel to power through."
   },
   "mc-café-coffee": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Coffee-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Coffee",
+    "name": "McCafé Coffee",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/coffee-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3311,9 +3311,9 @@
     "tagLine": "Invigorate your morning."
   },
   "mc-café-mocha": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Mocha",
+    "name": "McCafé Mocha",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mccaf-mocha-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3361,9 +3361,9 @@
     "tagLine": "Chocolaty espresso perfection."
   },
   "mc-café-caramel-mocha": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Caramel-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Caramel Mocha",
+    "name": "McCafé Caramel Mocha",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mocha-caramel-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3403,9 +3403,9 @@
     "tagLine": "Chocolate and caramel decadence."
   },
   "mc-café-hot-chocolate": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Hot-Chocolate-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Hot Chocolate",
+    "name": "McCafé Hot Chocolate",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/hot-chocolate-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3437,7 +3437,7 @@
     "tagLine": "Warm up with chocolaty flavor."
   },
   "mc-café-iced-coffee": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Premium-Roast-Iced-Coffee-Medium.jpg?$THUMBNAIL_MEDIUM$",
     "name": "McCafé Iced Coffee",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-coffee-small.html",
@@ -3471,9 +3471,9 @@
     "tagLine": "Ice cold coffee gets bold and creamy."
   },
   "mc-café-iced-caramel-mocha": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Iced-Caramel-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Iced Caramel Mocha",
+    "name": "McCafé Iced Caramel Mocha",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/iced-caramel-mocha-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3517,9 +3517,9 @@
     "tagLine": "Icy sweetness."
   },
   "mc-café-iced-mocha": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Iced-Mocha-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Iced Mocha",
+    "name": "McCafé Iced Mocha",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mccaf-iced-mocha-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3583,7 +3583,7 @@
       "egg-mc-muffin"
     ],
     "serveSizes": null,
-    "tagLine": "An excellent source of happiness®"
+    "tagLine": "An excellent source of happiness"
   },
   "1-low-fat-milk-jug": {
     "category": "Drinks",
@@ -3612,7 +3612,7 @@
   "dasani-water": {
     "category": "Drinks",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Dasani-Water.png?$THUMBNAIL_MEDIUM$",
-    "name": "Dasani® Water",
+    "name": "Dasani Water",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/dasani-water.html",
     "categoryID": "drinks",
     "canCustomize": true,
@@ -3633,9 +3633,9 @@
     "tagLine": "Simply cool."
   },
   "mc-café-caramel-macchiato": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-caramel-macchiato.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Caramel Macchiato",
+    "name": "McCafé Caramel Macchiato",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/caramel-macchiato-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3675,9 +3675,9 @@
     "tagLine": "Creamy, Caramel-y, & Smooth."
   },
   "mc-café-cappuccino": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-cappuccino.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Cappuccino",
+    "name": "McCafé Cappuccino",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/cappuccino-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3709,9 +3709,9 @@
     "tagLine": "Sip by cozy sip."
   },
   "mc-café-caramel-cappuccino": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-cappuccino.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Caramel Cappuccino",
+    "name": "McCafé Caramel Cappuccino",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/caramel-cappuccino-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3747,9 +3747,9 @@
     "tagLine": "Sip by cozy sip."
   },
   "mc-café-french-vanilla-cappuccino": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-vanilla-cappuccino.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® French Vanilla Cappuccino",
+    "name": "McCafé French Vanilla Cappuccino",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/french-vanilla-cappuccino-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3785,9 +3785,9 @@
     "tagLine": "Sip by cozy sip."
   },
   "mc-café-americano": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-americano.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Americano",
+    "name": "McCafé Americano",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/espresso-americano-coffee-small-12-oz.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3805,9 +3805,9 @@
     "tagLine": "Sip by cozy sip."
   },
   "mc-café-iced-latte": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-iced-latte.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Iced Latte",
+    "name": "McCafé Iced Latte",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/mccaf-iced-latte-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3835,9 +3835,9 @@
     "tagLine": "Slow down. Sip. Enjoy."
   },
   "mc-café-caramel-latte": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® Caramel Latte",
+    "name": "McCafé Caramel Latte",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/latte-caramel-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,
@@ -3869,9 +3869,9 @@
     "tagLine": "Slow down. Sip. Enjoy."
   },
   "mc-café-french-vanilla-latte": {
-    "category": "McCafé®",
+    "category": "McCafé",
     "imageURL": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-McCafe-Latte-Medium.jpg?$THUMBNAIL_MEDIUM$",
-    "name": "McCafé® French Vanilla Latte",
+    "name": "McCafé French Vanilla Latte",
     "url": "https://www.mcdonalds.com/content/us/en-us/product/latte-french-vanilla-small.html",
     "categoryID": "mc-café",
     "canCustomize": true,

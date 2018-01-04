@@ -1,11 +1,16 @@
 let fs = require('fs');
 const prompts = require('botbuilder-prompts');
-const menu = fs.readFileSync("./data/menu.json");
+// const menu = fs.readFileSync("./data/menu.json");
+
+const menuItems = require('./data/menu.json');
 
 let _ = require('underscore');
 
-let menuItems = JSON.parse(menu);
+// let menuItems = JSON.parse(menu);
 var menuKeys = Object.keys(menuItems);
+var itemNames = menuKeys.map(id => menuItems[id].name);
+console.log(itemNames);
+
 module.exports = shoppingCart = {
     addItem: function(context, name, count) {
         let cart = context.state.user.shoppingCart;
@@ -15,7 +20,8 @@ module.exports = shoppingCart = {
 
         let existingItem = _.find(cart, item => item.Name == name);
         if (existingItem) {
-            throw "sorry you already have this item in your cart";
+            existingItem.Count += count;
+            context.reply(`${count} ${item.Name}added to cart`);
         }
 
         cart.push(new ShoppingItem(name, count));

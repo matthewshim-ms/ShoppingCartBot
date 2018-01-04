@@ -47,11 +47,11 @@ let luisRecognizer = initLuisRecognizer();
 function resolveOneFromLuis(luisData){
 
     let quantity;
-    let itemName; 
-
+    let itemName;
+     
     for(let i = 0; i < luisData.entities.length; i++){
         if(luisData.entities[i].type == 'builtin.number'){
-            quantity = luisData.entities[i].value;
+            quantity = parseInt(luisData.entities[i].value);
             break;
         }
         else{
@@ -60,13 +60,15 @@ function resolveOneFromLuis(luisData){
     }
     // For now, only handle one 'item'
     for(let i = 0; i < luisData.entities.length; i++){
-        if(luisData.entities[i].type == 'foodItem')
-        itemName = luisData.entities[i].value;
+        if(luisData.entities[i].type == 'ItemName')
+            itemName = luisData.entities[i].resolution.values[0];
+    }
+    if(!itemName){
+        throw "Sorry that item doesn't exist in our Menu";
     }
 
     return {itemName, quantity};
 }
-
 
 const bot = new builder.Bot(botFrameworkAdapter)
     .use(new builder.ConsoleLogger())
@@ -92,18 +94,26 @@ const bot = new builder.Bot(botFrameworkAdapter)
                     context.reply(formatAdaptiveCard(cards.foodMenu));
 
                 }else if(luisData.name == 'ViewCart'){
+                    console.log(context.state.user.shoppingCart);
+
                     
+
+
+
                 }else if(luisData.name == 'AddItem'){
 
                     let item = resolveOneFromLuis(luisData);
            
                     // add Item to cart
                     shoppingCart.addItem(context, item.itemName, item.quantity);
-                    console.log(context.state.user.shoppingCart);
 
                 }else if(luisData.name == 'CheckOut'){
 
                 }else if(luisData.name == 'Delete'){
+
+                    let item = resolveOneFromLuis(luisData);
+
+                    shoppingCart.deleteItem(context, item.itemName);
 
                 }else if(luisData.name == 'UpdateItem'){
                     
