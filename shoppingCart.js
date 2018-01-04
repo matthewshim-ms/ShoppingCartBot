@@ -24,6 +24,10 @@ module.exports = shoppingCart = {
             context.reply(`${count} ${item.Name}added to cart`);
         }
 
+        if (!_.find(menuItems, item => item.name == name)) {
+            throw `sorry ${name} is not on our menu`;
+        }
+
         cart.push(new ShoppingItem(name, count));
     },
 
