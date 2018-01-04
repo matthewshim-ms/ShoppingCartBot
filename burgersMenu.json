@@ -1,0 +1,213 @@
+{
+    "type": "AdaptiveCard",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "Burgers Menu",
+        "size": "large",
+        "weight": "bolder"
+      },
+      {
+        "type": "TextBlock",
+        "text": "What burger do you prefer?",
+        "wrap": true
+      },
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "ColumnSet",
+            "columns":[
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "Image",
+                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-picoguac-sesame.png?$THUMBNAIL_MEDIUM$",
+                    "size": "medium",
+                    "spacing": "4"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Pico Guacamole, 100% Pure Beef 1/4 lb"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "horizontalAlignment": "left",
+                    "size": "large",
+                    "weight": "bold",
+                    "text": "$4.87"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "ColumnSet",
+            "columns":[
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "Image",
+                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-sweetbbqbacon-sesame.png?$THUMBNAIL_MEDIUM$",
+                    "size": "medium",
+                    "spacing": "4"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "wrap": true,
+                    "text": "Sweet BBQ Bacon, 100% Pure Beef 1/4 lb"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "horizontalAlignment": "left",
+                    "size": "large",
+                    "weight": "bold",
+                    "text": "$4.87"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "ColumnSet",
+            "columns":[
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "Image",
+                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Big-Mac.png?$THUMBNAIL_MEDIUM$",
+                    "size": "medium",
+                    "spacing": "4"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Big Mac®"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "horizontalAlignment": "left",
+                    "size": "large",
+                    "weight": "bold",
+                    "text": "$2.50"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "ColumnSet",
+            "columns":[
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "Image",
+                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Quarter-Pounder-with-Cheese.png?$THUMBNAIL_MEDIUM$",
+                    "size": "medium",
+                    "spacing": "4"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Quarter Pounder® with Cheese"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "horizontalAlignment": "left",
+                    "size": "large",
+                    "weight": "bold",
+                    "text": "$3.50"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "Container",
+        "items": [
+          {
+            "type": "ColumnSet",
+            "columns":[
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "Image",
+                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Hamburger.png?$THUMBNAIL_MEDIUM$",
+                    "size": "medium",
+                    "spacing": "4"
+                  }
+                ]
+              },
+              {
+                "type": "Column",
+                "width": "auto",
+                "items": [
+                  {
+                    "type": "TextBlock",
+                    "text": "Hamburger"
+                  },
+                  {
+                    "type": "TextBlock",
+                    "horizontalAlignment": "left",
+                    "size": "large",
+                    "weight": "bold",
+                    "text": "$1.99"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

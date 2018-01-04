@@ -1,0 +1,213 @@
+{
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Burgers Menu",
+      "size": "large",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "What burger do you prefer?",
+      "wrap": true
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns":[
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Egg-McMuffin.png?$THUMBNAIL_MEDIUM$",
+                  "size": "medium",
+                  "spacing": "4"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Egg McMuffin®"
+                },
+                {
+                  "type": "TextBlock",
+                  "horizontalAlignment": "left",
+                  "size": "large",
+                  "weight": "bold",
+                  "text": "$3.89"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns":[
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-McMuffin-with-Egg.png?$THUMBNAIL_MEDIUM$",
+                  "size": "medium",
+                  "spacing": "4"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "wrap": true,
+                  "text": "Sausage McMuffin® with Egg"
+                },
+                {
+                  "type": "TextBlock",
+                  "horizontalAlignment": "left",
+                  "size": "large",
+                  "weight": "bold",
+                  "text": "$3.89"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns":[
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Bacon-Egg-Cheese-Biscuit-Regular-Size-Biscuit.png?$THUMBNAIL_MEDIUM$",
+                  "size": "medium",
+                  "spacing": "4"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Bacon, Egg & Cheese Biscuit"
+                },
+                {
+                  "type": "TextBlock",
+                  "horizontalAlignment": "left",
+                  "size": "large",
+                  "weight": "bold",
+                  "text": "$4.50"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns":[
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Sausage-Biscuit-with-Egg-Regular-Size-Biscuit.png?$THUMBNAIL_MEDIUM$",
+                  "size": "medium",
+                  "spacing": "4"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Sausage Biscuit with Egg"
+                },
+                {
+                  "type": "TextBlock",
+                  "horizontalAlignment": "left",
+                  "size": "large",
+                  "weight": "bold",
+                  "text": "$3.50"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns":[
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Steak-Egg-Biscuit-Regular-Biscuit.png?$THUMBNAIL_MEDIUM$",
+                  "size": "medium",
+                  "spacing": "4"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "text": "Steak, Egg & Cheese Biscuit"
+                },
+                {
+                  "type": "TextBlock",
+                  "horizontalAlignment": "left",
+                  "size": "large",
+                  "weight": "bold",
+                  "text": "$2.99"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

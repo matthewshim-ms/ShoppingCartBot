@@ -6,6 +6,8 @@ const McDdata = require('./data/menu.json');
 const shoppingCart = require('./shoppingCart');
 let cards = require('./cards');
 const ai = require('botbuilder-ai'); // LUIS
+const RegExpRecognizer = builder.RegExpRecognizer;
+
 
 // Create server
 let server = restify.createServer();
@@ -35,6 +37,11 @@ function formatAdaptiveCard(card){
     }
     return adaptiveCard;
 }
+
+// Init recognizers
+let recognizer = new RegExpRecognizer();
+recognizer.addIntent('breakfastMenu', /breakfastMenu/i);
+recognizer.addIntent('burgerMenu', /burgerMenu/i);
 
 function initLuisRecognizer () {
     const luisAppId = "4fdecb57-2404-4d0f-954b-4696c41c9b5e";
@@ -74,7 +81,15 @@ const bot = new builder.Bot(botFrameworkAdapter)
     .use(new builder.ConsoleLogger())
     .use(new builder.MemoryStorage())
     .use(new builder.BotStateManager())
+    .use(recognizer)
     .onReceive((context) => {
+        if(context.ifIntent('breakfastMenu')){
+            context.reply(formatAdaptiveCard(cards.foodMenu.breakfast));
+        }
+        else if(context.ifIntent('burgerMenu')){
+            context.reply(formatAdaptiveCard(cards.foodMenu.burgers));
+        }
+
         if (context.request.type === builder.ActivityTypes.message) {
             return luisRecognizer.recognize(context)
             .then((results) => {
@@ -95,10 +110,6 @@ const bot = new builder.Bot(botFrameworkAdapter)
 
                 }else if(luisData.name == 'ViewCart'){
                     console.log(context.state.user.shoppingCart);
-
-                    
-
-
 
                 }else if(luisData.name == 'AddItem'){
 
