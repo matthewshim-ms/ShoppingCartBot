@@ -18,6 +18,10 @@ module.exports = shoppingCart = {
             throw "sorry you already have this item in your cart";
         }
 
+        if (!_.find(menuItems, item => item.name == name)) {
+            throw `sorry ${name} is not on our menu`;
+        }
+
         cart.push(new ShoppingItem(name, count));
     },
 
