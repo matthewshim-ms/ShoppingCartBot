@@ -36,9 +36,56 @@ function formatAdaptiveCard(card){
     return adaptiveCard;
 }
 
+function formatAdaptiveCardCart(context){
+
+    let currentCart = context.state.user.shoppingCart
+    let body = [
+        {
+            "type": "Container",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Your McDonalds Order",
+                    "weight": "bolder",
+                    "size": "medium"
+                }
+            ]
+        }
+    ];
+
+    // go through cart and add items to card
+    for(let i = 0; i < currentCart.length; i++){
+        let item = {
+            "type": "TextBlock",
+            "text": `${currentCart[i].Name} ${currentCart[i].Count}`,
+            "weight": "bolder",
+            "spacing": "medium"
+        }
+        body[0].items.push(item);
+    }
+
+    let adaptiveCard = {
+        "type": "message",
+        "text" : "Your Order",
+        "attachments": [{
+            "contentType": "application/vnd.microsoft.card.adaptive",
+            "content": {
+                "type" : "AdaptiveCard",
+                "version": "1.0",
+                "body": body
+            }
+        }]
+    }
+
+    console.log(JSON.stringify(adaptiveCard, null, 2));
+
+    return adaptiveCard;
+}
+
+
 function initLuisRecognizer () {
     const luisAppId = "4fdecb57-2404-4d0f-954b-4696c41c9b5e";
-    const subscriptionKey = "4941fa348c49494db1e8e8d2fd7adb2c";
+    const subscriptionKey = "c467e83e7f674c5f8c062acb21a1b949";
     return new ai.LuisRecognizer(luisAppId, subscriptionKey);
 }
 let luisRecognizer = initLuisRecognizer();
@@ -94,11 +141,10 @@ const bot = new builder.Bot(botFrameworkAdapter)
                     context.reply(formatAdaptiveCard(cards.foodMenu));
 
                 }else if(luisData.name == 'ViewCart'){
+
                     console.log(context.state.user.shoppingCart);
 
-                    
-
-
+                    context.reply(formatAdaptiveCardCart(context));   
 
                 }else if(luisData.name == 'AddItem'){
 
@@ -126,6 +172,7 @@ const bot = new builder.Bot(botFrameworkAdapter)
             })
             .catch((err) => {
                 context.reply('There was an error connecting to the LUIS API');
+                console.log(err);
                 context.reply(err);
             });
         } else {
