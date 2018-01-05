@@ -37,14 +37,12 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "Egg McMuffin®"
-                },
-                {
-                  "type": "TextBlock",
+                  "wrap": true,
                   "horizontalAlignment": "left",
-                  "size": "large",
-                  "weight": "bold",
-                  "text": "$3.89"
+                  "size": "default",
+                  "weight": "bolder",
+                  "color": "accent",
+                  "text": "Egg McMuffin® - $3.26"
                 }
               ]
             }
@@ -77,14 +75,11 @@
                 {
                   "type": "TextBlock",
                   "wrap": true,
-                  "text": "Sausage McMuffin® with Egg"
-                },
-                {
-                  "type": "TextBlock",
                   "horizontalAlignment": "left",
-                  "size": "large",
-                  "weight": "bold",
-                  "text": "$3.89"
+                  "size": "default",
+                  "weight": "bolder",
+                  "color": "accent",
+                  "text": "Sausage McMuffin® with Egg - $3.50"
                 }
               ]
             }
@@ -116,14 +111,12 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "Bacon, Egg & Cheese Biscuit"
-                },
-                {
-                  "type": "TextBlock",
+                  "wrap": true,
                   "horizontalAlignment": "left",
-                  "size": "large",
-                  "weight": "bold",
-                  "text": "$4.50"
+                  "size": "default",
+                  "weight": "bolder",
+                  "color": "accent",
+                  "text": "Bacon, Egg & Cheese Biscuit - $3.75"
                 }
               ]
             }
@@ -155,14 +148,12 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "Sausage Biscuit with Egg"
-                },
-                {
-                  "type": "TextBlock",
+                  "wrap": true,
                   "horizontalAlignment": "left",
-                  "size": "large",
-                  "weight": "bold",
-                  "text": "$3.50"
+                  "size": "default",
+                  "weight": "bolder",
+                  "color": "accent",
+                  "text": "Sausage Biscuit with Egg - $3.50"
                 }
               ]
             }
@@ -194,14 +185,12 @@
               "items": [
                 {
                   "type": "TextBlock",
-                  "text": "Steak, Egg & Cheese Biscuit"
-                },
-                {
-                  "type": "TextBlock",
+                  "wrap": true,
                   "horizontalAlignment": "left",
-                  "size": "large",
-                  "weight": "bold",
-                  "text": "$2.99"
+                  "size": "default",
+                  "weight": "bolder",
+                  "color": "accent",
+                  "text": "Steak, Egg & Cheese Biscuit - $3.50"
                 }
               ]
             }

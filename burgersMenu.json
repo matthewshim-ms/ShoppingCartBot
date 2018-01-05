@@ -1,213 +1,212 @@
 {
-    "type": "AdaptiveCard",
-    "version": "1.0",
-    "body": [
-      {
-        "type": "TextBlock",
-        "text": "Burgers Menu",
-        "size": "large",
-        "weight": "bolder"
-      },
-      {
-        "type": "TextBlock",
-        "text": "What burger do you prefer?",
-        "wrap": true
-      },
-      {
-        "type": "Container",
-        "items": [
-          {
-            "type": "ColumnSet",
-            "columns":[
-              {
-                "type": "Column",
-                "width": "auto",
-                "items": [
-                  {
-                    "type": "Image",
-                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-picoguac-sesame.png?$THUMBNAIL_MEDIUM$",
-                    "size": "medium",
-                    "spacing": "4"
-                  }
-                ]
-              },
-              {
-                "type": "Column",
-                "width": "auto",
-                "items": [
-                  {
-                    "type": "TextBlock",
-                    "text": "Pico Guacamole Burger"
-                  },
-                  {
-                    "type": "TextBlock",
-                    "horizontalAlignment": "left",
-                    "size": "large",
-                    "weight": "bold",
-                    "text": "$4.87"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "Container",
-        "items": [
-          {
-            "type": "ColumnSet",
-            "columns":[
-              {
-                "type": "Column",
-                "width": "auto",
-                "items": [
-                  {
-                    "type": "Image",
-                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-sweetbbqbacon-sesame.png?$THUMBNAIL_MEDIUM$",
-                    "size": "medium",
-                    "spacing": "4"
-                  }
-                ]
-              },
-              {
-                "type": "Column",
-                "width": "auto",
-                "items": [
-                  {
-                    "type": "TextBlock",
-                    "wrap": true,
-                    "text": "Sweet BBQ Bacon Burger"
-                  },
-                  {
-                    "type": "TextBlock",
-                    "horizontalAlignment": "left",
-                    "size": "large",
-                    "weight": "bold",
-                    "text": "$4.87"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "Container",
-        "items": [
-          {
-            "type": "ColumnSet",
-            "columns":[
-              {
-                "type": "Column",
-                "width": "auto",
-                "items": [
-                  {
-                    "type": "Image",
-                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Big-Mac.png?$THUMBNAIL_MEDIUM$",
-                    "size": "medium",
-                    "spacing": "4"
-                  }
-                ]
-              },
-              {
-                "type": "Column",
-                "width": "auto",
-                "items": [
-                  {
-                    "type": "TextBlock",
-                    "text": "Big Mac®"
-                  },
-                  {
-                    "type": "TextBlock",
-                    "horizontalAlignment": "left",
-                    "size": "large",
-                    "weight": "bold",
-                    "text": "$2.50"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "Container",
-        "items": [
-          {
-            "type": "ColumnSet",
-            "columns":[
-              {
-                "type": "Column",
-                "width": "auto",
-                "items": [
-                  {
-                    "type": "Image",
-                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Quarter-Pounder-with-Cheese.png?$THUMBNAIL_MEDIUM$",
-                    "size": "medium",
-                    "spacing": "4"
-                  }
-                ]
-              },
-              {
-                "type": "Column",
-                "width": "auto",
-                "items": [
-                  {
-                    "type": "TextBlock",
-                    "text": "Quarter Pounder®"
-                  },
-                  {
-                    "type": "TextBlock",
-                    "horizontalAlignment": "left",
-                    "size": "large",
-                    "weight": "bold",
-                    "text": "$3.50"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "type": "Container",
-        "items": [
-          {
-            "type": "ColumnSet",
-            "columns":[
-              {
-                "type": "Column",
-                "width": "auto",
-                "items": [
-                  {
-                    "type": "Image",
-                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Hamburger.png?$THUMBNAIL_MEDIUM$",
-                    "size": "medium",
-                    "spacing": "4"
-                  }
-                ]
-              },
-              {
-                "type": "Column",
-                "width": "auto",
-                "items": [
-                  {
-                    "type": "TextBlock",
-                    "text": "Hamburger"
-                  },
-                  {
-                    "type": "TextBlock",
-                    "horizontalAlignment": "left",
-                    "size": "large",
-                    "weight": "bold",
-                    "text": "$1.99"
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+  "type": "AdaptiveCard",
+  "version": "1.0",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "Burger Menu",
+      "size": "large",
+      "weight": "bolder"
+    },
+    {
+      "type": "TextBlock",
+      "text": "What burger do you prefer?",
+      "wrap": true
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "large",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns":[
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-picoguac-sesame.png?$THUMBNAIL_MEDIUM$",
+                  "size": "medium",
+                  "spacing": "4"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "horizontalAlignment": "left",
+                  "size": "default",
+                  "weight": "bolder",
+                  "color": "accent",
+                  "wrap": true,
+                  "text": "Pico Guacamole Burger - $5.25"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "large",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns":[
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-sweetbbqbacon-sesame.png?$THUMBNAIL_MEDIUM$",
+                  "size": "medium",
+                  "spacing": "4"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "wrap": true,
+                  "horizontalAlignment": "left",
+                  "size": "default",
+                  "weight": "bolder",
+                  "color": "accent",
+                  "text": "Sweet BBQ Bacon Burger - $5.25"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "large",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns":[
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Big-Mac.png?$THUMBNAIL_MEDIUM$",
+                  "size": "medium",
+                  "spacing": "4"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "horizontalAlignment": "left",
+                  "size": "default",
+                  "weight": "bolder",
+                  "color": "accent",
+                  "wrap": true,
+                  "text": "Big Mac® - $3.50"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "large",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns":[
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Quarter-Pounder-with-Cheese.png?$THUMBNAIL_MEDIUM$",
+                  "size": "medium",
+                  "spacing": "4"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "horizontalAlignment": "left",
+                  "size": "default",
+                  "weight": "bolder",
+                  "color": "accent",
+                  "wrap": true,
+                  "text": "Quarter Pounder® - $4.25"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "Container",
+      "separator": true,
+      "spacing": "large",
+      "items": [
+        {
+          "type": "ColumnSet",
+          "columns":[
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "Image",
+                  "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nutrition/items/regular/desktop/t-mcdonalds-Hamburger.png?$THUMBNAIL_MEDIUM$",
+                  "size": "medium",
+                  "spacing": "4"
+                }
+              ]
+            },
+            {
+              "type": "Column",
+              "width": "auto",
+              "items": [
+                {
+                  "type": "TextBlock",
+                  "horizontalAlignment": "left",
+                  "size": "default",
+                  "weight": "bolder",
+                  "color": "accent",
+                  "wrap": true,
+                  "text": "Hamburger - $2.25"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

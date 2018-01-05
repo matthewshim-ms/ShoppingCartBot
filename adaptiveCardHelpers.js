@@ -123,6 +123,8 @@ module.exports = adaptiveCardHelper = {
                             {
                                 "type": "TextBlock",
                                 "wrap": true,
+                                "color": "accent",
+                                "weight": "bolder",
                                 "text": `${currentCart[i].Name} - **Qty: ${currentCart[i].Count}** - $ ${price}`,
                             }
                             ]
@@ -137,6 +139,8 @@ module.exports = adaptiveCardHelper = {
             // add totalCost to card
             let costCard = {
                 "type": "TextBlock",
+                "weight": "bolder",
+                "color": "accent",
                 "text": `Total Cost: $ ${totalCost}`
             }
             body[0].items.push(costCard);

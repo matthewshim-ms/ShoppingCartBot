@@ -130,13 +130,25 @@ const bot = new builder.Bot(botFrameworkAdapter)
 
                     let item = resolveOneFromLuis(luisData);
 
-                    shoppingCart.deleteItem(context, item.itemName);
+                    try{
+                        shoppingCart.deleteItem(context, item.itemName);
+                        context.reply(`${item.itemName} deleted from cart`);
+                    }catch(err){
+                        context.reply("Sorry, could you try that again?");
+                    }
+                    
                 }else if(luisData.name == 'UpdateItem'){
                     
                     let item = resolveOneFromLuis(luisData);
 
                     // Update Item in cart
-                    shoppingCart.updateItem(context, item.itemName, item.quantity);
+                    try{
+                        shoppingCart.updateItem(context, item.itemName, item.quantity);
+                        context.reply(` ${item.itemName} updated to x${item.quantity}`);
+                    }catch(err){
+                        context.reply("Sorry, we didn't get that");
+                    }
+
                 }else if(luisData.name == 'ClearCart'){
                     shoppingCart.clearCart(context);
                 }
