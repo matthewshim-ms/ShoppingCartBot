@@ -7,6 +7,7 @@ const shoppingCart = require('./shoppingCart');
 let cards = require('./cards');
 const ai = require('botbuilder-ai'); // LUIS
 const RegExpRecognizer = builder.RegExpRecognizer;
+const ActivityTypes = builder.ActivityTypes;
 
 // Create server
 let server = restify.createServer();
@@ -123,6 +124,36 @@ function resolveOneFromLuis(luisData){
     return {itemName, quantity};
 }
 
+function welcomeMessage () {
+    let adaptiveCard = {
+        "type" : "message",
+        "text" : "McDonalds",
+        "attachments": [{
+            "contentType": "application/vnd.microsoft.card.adaptive",
+            "content": {
+                "type": "AdaptiveCard",
+                "version": "1.0",
+                "body": [
+                {
+                    "type": "Image",
+                    "size": "auto",
+                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/documents/careers/benefits2.jpg"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Welcome to McDonald's",
+                    "wrap": true
+                }
+                ]
+            }
+        }]
+    
+    }
+
+    return adaptiveCard;
+}
+
+
 const bot = new builder.Bot(botFrameworkAdapter)
     .use(new builder.ConsoleLogger())
     .use(new builder.MemoryStorage())
@@ -189,7 +220,16 @@ const bot = new builder.Bot(botFrameworkAdapter)
                 console.log(err);
                 context.reply(err);
             });
-        } else {
-            context.reply(`[${context.request.type} event detected]`);
+        }
+        else if(context.request.type == ActivityTypes.conversationUpdate){
+            if(context.request.membersAdded){
+                var addedMember = context.request.membersAdded[0];
+                if(addedMember.id != context.request.recipient.id){
+                    context.reply(welcomeMessage());
+                }
+            }
+        }
+        else {
+            //context.reply(`[${context.request.type} event detected]`);
         }
     });
