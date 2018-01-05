@@ -81,9 +81,10 @@ module.exports = adaptiveCardHelper = {
 
             let item = {
                 "type": "TextBlock",
-                "text": "Your order is currently empty",
                 "weight": "bolder",
-                "spacing": "medium"
+                "spacing": "medium",
+                "color": "attention",
+                "text": "Your order is currently empty"
             }
             body[0].items.push(item);
         }
@@ -98,6 +99,8 @@ module.exports = adaptiveCardHelper = {
         
                 let addItem = {
                     "type": "Container",
+                    "separator": true,
+                    "spacing": "large",
                     "items": [
                         {
                         "type": "ColumnSet",
@@ -121,7 +124,9 @@ module.exports = adaptiveCardHelper = {
                             {
                                 "type": "TextBlock",
                                 "wrap": true,
-                                "text": `${currentCart[i].Name} - **Qty: ${currentCart[i].Count}**`,
+                                "color": "good",
+                                "weight": "bolder",
+                                "text": `${currentCart[i].Name} - Qty: ${currentCart[i].Count}`,
                             }
                             ]
                         }
