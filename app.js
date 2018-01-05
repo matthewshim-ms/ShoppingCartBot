@@ -100,8 +100,6 @@ const bot = new builder.Bot(botFrameworkAdapter)
 
                 }else if(luisData.name == 'ViewCart'){
 
-                    console.log(context.state.user.shoppingCart);
-
                     context.reply(adaptiveCardHelper.formatAdaptiveCardShoppingCart(context));   
 
                 }else if(luisData.name == 'AddItem'){
@@ -112,6 +110,11 @@ const bot = new builder.Bot(botFrameworkAdapter)
                     shoppingCart.addItem(context, item.itemName, item.quantity);
 
                 }else if(luisData.name == 'CheckOut'){
+
+                    // Create receipt card and display
+                    let checkout = adaptiveCardHelper.formatAdaptiveCardShoppingCart(context)
+
+                    context.reply(builder.CardStyler.receiptCard(checkout));
 
                 }else if(luisData.name == 'Delete'){
 
@@ -126,7 +129,6 @@ const bot = new builder.Bot(botFrameworkAdapter)
                     // Update Item in cart
                     shoppingCart.updateItem(context, item.itemName, item.quantity);
                 }
-                
             })
             .catch((err) => {
                 console.log(err);

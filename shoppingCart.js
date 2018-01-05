@@ -45,10 +45,6 @@ module.exports = shoppingCart = {
         context.state.user.shoppingCart = _.without(cart, item);
     },
 
-    view: function(context) {
-
-    },
-
     updateItem: function(context, name, count) {
         let cart = context.state.user.shoppingCart;
         if (!cart) {
@@ -61,6 +57,10 @@ module.exports = shoppingCart = {
         }
 
         item.Count = count;
+    },
+
+    view: function(context) {
+        
     },
 
     checkout: function(context){
