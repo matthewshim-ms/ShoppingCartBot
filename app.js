@@ -83,7 +83,7 @@ const bot = new builder.Bot(botFrameworkAdapter)
             context.reply(adaptiveCardHelper.formatAdaptiveCard(cards.foodMenu.burgers));
         }
 
-        if (context.request.type === builder.ActivityTypes.message) {
+        else if (context.request.type === builder.ActivityTypes.message) {
             return luisRecognizer.recognize(context)
             .then((results) => {
                 let luisData = results[0];
@@ -121,7 +121,6 @@ const bot = new builder.Bot(botFrameworkAdapter)
                     let item = resolveOneFromLuis(luisData);
 
                     shoppingCart.deleteItem(context, item.itemName);
-
                 }else if(luisData.name == 'UpdateItem'){
                     
                     let item = resolveOneFromLuis(luisData);

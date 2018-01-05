@@ -5,7 +5,7 @@ module.exports = adaptiveCardHelper = {
     welcomeMessage: function(){
         let adaptiveCard = {
             "type" : "message",
-            "text" : "McDonalds",
+            "text" : "McDonalds: Welcome to McDonald's",
             "attachments": [{
                 "contentType": "application/vnd.microsoft.card.adaptive",
                 "content": {
@@ -19,9 +19,25 @@ module.exports = adaptiveCardHelper = {
                     },
                     {
                         "type": "TextBlock",
-                        "text": "Welcome to McDonald's",
-                        "wrap": true
+                        "size": "large",
+                        "weight": "bolder",
+                        "horizontalAlignment": "center",
+                        "isSubtle": true,
+                        "wrap": true,
+                        "text": "I'm loving it!"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "weight": "bolder",
+                        "wrap": true,
+                        "text": "How may I take your order?"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "wrap": true,
+                        "text": "You can say things like, 'Add 2 BigMac', 'burger menu', or 'show cart'"
                     }
+
                     ]
                 }
             }]
@@ -32,7 +48,7 @@ module.exports = adaptiveCardHelper = {
     formatAdaptiveCard: function(card){
         let adaptiveCard = {
             "type" : "message",
-            "text" : "Example: " + card.name,
+            "text" : "McDonald's: " + card.name,
             "attachments": [{
                 "contentType": "application/vnd.microsoft.card.adaptive",
                 "content": card.content
@@ -73,33 +89,52 @@ module.exports = adaptiveCardHelper = {
         }
         else  // cart is not empty
         {      
+            
             for(let i = 0; i < currentCart.length; i++){
         
                 // Gets the image URL from the Menu
                 let menuItem = _.find(menuItems, item => item.name == currentCart[i].Name);
                 let imageURL = menuItem.imageURL;
         
-                let imageThumb = {
-                    "type": "Image",
-                    "url": imageURL,
-                    "size": "large",
-                    "spacing": 4
+                let addItem = {
+                    "type": "Container",
+                    "items": [
+                        {
+                        "type": "ColumnSet",
+                        "columns":[
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                            {
+                                "type": "Image",
+                                "url": imageURL,
+                                "size": "medium",
+                                "spacing": "4"
+                            }
+                            ]
+                        },
+                        {
+                            "type": "Column",
+                            "width": "auto",
+                            "items": [
+                            {
+                                "type": "TextBlock",
+                                "wrap": true,
+                                "text": `${currentCart[i].Name} - **Qty: ${currentCart[i].Count}**`,
+                            }
+                            ]
+                        }
+                        ]
+                    }
+                    ]
                 }
-                body[0].items.push(imageThumb);
-        
-                let item = {
-                    "type": "TextBlock",
-                    "text": `${currentCart[i].Name} - Qty: ${currentCart[i].Count}`,
-                    "weight": "bolder",
-                    "spacing": "medium"
-                }
-                body[0].items.push(item);
+                body[0].items.push(addItem);
             }
         }
-
         let adaptiveCard = {
             "type": "message",
-            "text" : "Your Order",
+            "text" : "McDonald's: Order Details",
             "attachments": [{
                 "contentType": "application/vnd.microsoft.card.adaptive",
                 "content": {
