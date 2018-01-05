@@ -8,7 +8,6 @@ let cards = require('./cards');
 const ai = require('botbuilder-ai'); // LUIS
 const RegExpRecognizer = builder.RegExpRecognizer;
 
-
 // Create server
 let server = restify.createServer();
 server.listen(process.env.port || process.env.PORT || 3978, function () {
@@ -83,7 +82,6 @@ function formatAdaptiveCardCart(context){
 
     return adaptiveCard;
 }
-
 
 // Init recognizers
 let recognizer = new RegExpRecognizer();
