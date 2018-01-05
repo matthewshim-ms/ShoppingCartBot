@@ -154,5 +154,52 @@ module.exports = adaptiveCardHelper = {
             }]
         }
         return adaptiveCard;
+    },
+
+    formatReceiptCard : function(context){
+
+        let shoppingCart = context.state.user.shoppingCart;
+        let totalCost = 0.00;
+
+        let items = [];
+
+        for(let i = 0; i < shoppingCart.length; i++){
+
+            let menuItem = _.find(menuItems, item => item.name == shoppingCart[i].Name);
+            let imageURL = menuItem.imageURL;
+            let price = menuItem.price * shoppingCart[i].Count;
+            totalCost += price;
+
+            let receiptItem = {
+                "title": `${menuItem.name}`,
+                "text": `${menuItem.tagLine}`,
+                "image": {
+                    "url": imageURL,
+                    "tap": {
+                        "type": "openUrl",
+                        "title": "Tapped it!",
+                        "value": "testurl1.html"
+                    }
+                },
+                price: `$ ${price}`
+            }
+            items.push(receiptItem);
+        }
+
+        let receiptCard = {
+            "type": "message",
+            "test": "Order Receipt",
+            "attachments": [{
+                "contentType" : "application/vnd.microsoft.card.receipt",
+                "content": {
+                    "title": "Your Order Receipt",
+                    "subtitle": "this is subtitle",
+                    "items": items          
+                }
+            }],
+            "total": `$ - ${totalCost}`
+        }
+
+        return receiptCard;
     }
 }

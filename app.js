@@ -107,14 +107,24 @@ const bot = new builder.Bot(botFrameworkAdapter)
                     let item = resolveOneFromLuis(luisData);
            
                     // add Item to cart
-                    shoppingCart.addItem(context, item.itemName, item.quantity);
-
+                    try{
+                        shoppingCart.addItem(context, item.itemName, item.quantity);
+                        context.reply(`${item.quantity} ${item.itemName} added to your cart`);
+                    }catch(err){
+                        context.reply("Sorry, we couldn't add that");
+                    }
+                        
                 }else if(luisData.name == 'CheckOut'){
 
                     // Create receipt card and display
-                    let checkout = adaptiveCardHelper.formatAdaptiveCardShoppingCart(context)
+                    let canCheckout = false;
 
-                    context.reply(builder.CardStyler.receiptCard(checkout));
+                    canCheckout = shoppingCart.checkIfCanCheckout(context);
+
+                    if(canCheckout){
+                        let checkoutReceipt = adaptiveCardHelper.formatReceiptCard(context);
+                        context.reply(checkoutReceipt);
+                    }
 
                 }else if(luisData.name == 'Delete'){
 

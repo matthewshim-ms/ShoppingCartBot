@@ -75,8 +75,14 @@ module.exports = shoppingCart = {
         
     },
 
-    checkout: function(context){
-
+    checkIfCanCheckout: function(context){
+        let cart = context.state.user.shoppingCart;
+        if(!cart){
+            throw "Sorry, nothing to checkout.";
+            return false;
+        }else{
+            return true;
+        }
     }
 }
 
