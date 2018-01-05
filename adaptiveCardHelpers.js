@@ -98,6 +98,8 @@ module.exports = adaptiveCardHelper = {
                 let price = menuItem.price * currentCart[i].Count;
                 totalCost += price;
 
+                let formatPrice = price.toFixed(2);
+
                 let addItem = {
                     "type": "Container",
                     "items": [
@@ -125,7 +127,7 @@ module.exports = adaptiveCardHelper = {
                                 "wrap": true,
                                 "color": "accent",
                                 "weight": "bolder",
-                                "text": `${currentCart[i].Name} - **Qty: ${currentCart[i].Count}** - $ ${price}`,
+                                "text": `${currentCart[i].Name} - **Qty: ${currentCart[i].Count}** - $ ${formatPrice}`,
                             }
                             ]
                         },
@@ -136,12 +138,14 @@ module.exports = adaptiveCardHelper = {
                 body[0].items.push(addItem);
             }
 
+
+            let formatTotalCost = totalCost.toFixed(2);
             // add totalCost to card
             let costCard = {
                 "type": "TextBlock",
                 "weight": "bolder",
                 "color": "accent",
-                "text": `Total Cost: $ ${totalCost}`
+                "text": `Total Cost: $ ${formatTotalCost}`
             }
             body[0].items.push(costCard);
         }
@@ -162,6 +166,8 @@ module.exports = adaptiveCardHelper = {
 
     formatReceiptCard : function(context){
 
+        let randomOrderNumber = Math.floor(Math.random() * 1000 + 1000);
+        
         let shoppingCart = context.state.user.shoppingCart;
         let totalCost = 0.00;
 
@@ -172,11 +178,13 @@ module.exports = adaptiveCardHelper = {
             let menuItem = _.find(menuItems, item => item.name == shoppingCart[i].Name);
             let imageURL = menuItem.imageURL;
             let price = menuItem.price * shoppingCart[i].Count;
-            totalCost += price;
+            totalCost += price; // for demical place
 
             let receiptItem = {
                 "title": `${menuItem.name}`,
                 "text": `${menuItem.tagLine}`,
+                "color": "accent",
+                "weight": "bold",
                 "image": {
                     "url": imageURL,
                     "tap": {
@@ -190,6 +198,13 @@ module.exports = adaptiveCardHelper = {
             items.push(receiptItem);
         }
 
+        let orderBlock = {
+            "title": `Order No. **${randomOrderNumber}**`,
+        }
+        items.push(orderBlock);
+        
+        let formatTotalCost = totalCost.toFixed(2);
+
         let receiptCard = {
             "type": "message",
             "test": "Order Receipt",
@@ -198,12 +213,18 @@ module.exports = adaptiveCardHelper = {
                 "content": {
                     "title": "Your Order Receipt",
                     "subtitle": "this is subtitle",
-                    "items": items          
+                    "items": items,
+                    "total": `$ ${formatTotalCost}`,
+                    "buttons": [
+                        {
+                            type:"imBack",
+                            title:"Process Payment",
+                            value: "Order Now"
+                        }
+                    ]
                 }
-            }],
-            "total": `$ - ${totalCost}`
+            }]
         }
-
         return receiptCard;
     }
 }
