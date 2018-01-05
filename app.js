@@ -49,7 +49,8 @@ function resolveOneFromLuis(luisData){
      
     for(let i = 0; i < luisData.entities.length; i++){
         if(luisData.entities[i].type == 'builtin.number'){
-            quantity = parseInt(luisData.entities[i].value);
+
+            quantity = parseInt(luisData.entities[i].resolution.value);
             break;
         }
         else{
