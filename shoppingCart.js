@@ -25,9 +25,14 @@ module.exports = shoppingCart = {
         let existingItem = _.find(cart, item => item.Name == name);
         if (existingItem) {
             existingItem.Count += count;
+            let price = _.findWhere(menuItems, {name : `${name}`}).price;
+            existingItem.price = price * existingItem.count;
             context.reply(`Added: ${count} more ${name}`);
         }
-        else if(cart.push(new ShoppingItem(name, count)) > 0){
+        else             
+        {
+            let price = _.findWhere(menuItems, {name : `${name}`}).price;
+            cart.push(new ShoppingItem(name, count, price));
             context.reply(`Added: ${count} - ${name}`);
         }
     },
@@ -86,9 +91,10 @@ module.exports = shoppingCart = {
 }
 
 class ShoppingItem {
-    constructor (name, count) {
+    constructor (name, count, price) {
         this.Name = name;
         this.Count = count;
+        this.Price = price;
     }
 }
 // END 
