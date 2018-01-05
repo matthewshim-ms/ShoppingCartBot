@@ -13,6 +13,10 @@ console.log(itemNames);
 
 module.exports = shoppingCart = {
     addItem: function(context, name, count) {
+        if (!_.find(menuItems, item => item.name == name)) {
+            throw `sorry ${name} is not on our menu`;
+        }
+        
         let cart = context.state.user.shoppingCart;
         if (!cart) {
             context.state.user.shoppingCart = cart = [];
@@ -21,14 +25,11 @@ module.exports = shoppingCart = {
         let existingItem = _.find(cart, item => item.Name == name);
         if (existingItem) {
             existingItem.Count += count;
-            context.reply(`${count} ${item.Name}added to cart`);
+            context.reply(`Added: ${count} more ${name}`);
         }
-
-        if (!_.find(menuItems, item => item.name == name)) {
-            throw `sorry ${name} is not on our menu`;
+        else if(cart.push(new ShoppingItem(name, count)) > 0){
+            context.reply(`Added: ${count} - ${name}`);
         }
-
-        cart.push(new ShoppingItem(name, count));
     },
 
     deleteItem: function(context, name) {
@@ -42,7 +43,9 @@ module.exports = shoppingCart = {
             throw "sorry you don't have this item in your cart";
         }
 
-        context.state.user.shoppingCart = _.without(cart, item);
+       if(context.state.user.shoppingCart = _.without(cart, item)){
+           context.reply(`Removed from cart: ${name}`)
+       }
     },
 
     updateItem: function(context, name, count) {
@@ -54,6 +57,9 @@ module.exports = shoppingCart = {
         let item = _.find(cart, item => item.Name == name);
         if (!item) {
             throw "sorry you don't have this item in your cart";
+        }
+        else{
+            context.reply(`Updated: ${count} - ${name}`)
         }
 
         item.Count = count;
