@@ -39,10 +39,10 @@
                   "type": "TextBlock",
                   "wrap": true,
                   "horizontalAlignment": "left",
-                  "size": "medium",
+                  "size": "default",
                   "weight": "bolder",
-                  "color": "good",
-                  "text": "Egg McMuffin® - $3.89"
+                  "color": "accent",
+                  "text": "Egg McMuffin® - $3.26"
                 }
               ]
             }
@@ -76,10 +76,10 @@
                   "type": "TextBlock",
                   "wrap": true,
                   "horizontalAlignment": "left",
-                  "size": "medium",
+                  "size": "default",
                   "weight": "bolder",
-                  "color": "good",
-                  "text": "Sausage McMuffin® with Egg - $3.89"
+                  "color": "accent",
+                  "text": "Sausage McMuffin® with Egg - $3.50"
                 }
               ]
             }
@@ -113,10 +113,10 @@
                   "type": "TextBlock",
                   "wrap": true,
                   "horizontalAlignment": "left",
-                  "size": "medium",
+                  "size": "default",
                   "weight": "bolder",
-                  "color": "good",
-                  "text": "Bacon, Egg & Cheese Biscuit - $4.50"
+                  "color": "accent",
+                  "text": "Bacon, Egg & Cheese Biscuit - $3.75"
                 }
               ]
             }
@@ -150,9 +150,9 @@
                   "type": "TextBlock",
                   "wrap": true,
                   "horizontalAlignment": "left",
-                  "size": "medium",
+                  "size": "default",
                   "weight": "bolder",
-                  "color": "good",
+                  "color": "accent",
                   "text": "Sausage Biscuit with Egg - $3.50"
                 }
               ]
@@ -187,10 +187,10 @@
                   "type": "TextBlock",
                   "wrap": true,
                   "horizontalAlignment": "left",
-                  "size": "medium",
+                  "size": "default",
                   "weight": "bolder",
-                  "color": "good",
-                  "text": "Steak, Egg & Cheese Biscuit - $2.99"
+                  "color": "accent",
+                  "text": "Steak, Egg & Cheese Biscuit - $3.50"
                 }
               ]
             }

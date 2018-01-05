@@ -40,11 +40,11 @@
                   {
                     "type": "TextBlock",
                     "horizontalAlignment": "left",
-                    "size": "medium",
+                    "size": "default",
                     "weight": "bolder",
-                    "color": "good",
+                    "color": "accent",
                     "wrap": true,
-                    "text": "Pico Guacamole Burger - $4.87"
+                    "text": "Pico Guacamole Burger - $5.25"
                   }
                 ]
               }
@@ -80,10 +80,10 @@
                     "type": "TextBlock",
                     "wrap": true,
                     "horizontalAlignment": "left",
-                    "size": "medium",
+                    "size": "default",
                     "weight": "bolder",
-                    "color": "good",
-                    "text": "Sweet BBQ Bacon Burger - $4.87"
+                    "color": "accent",
+                    "text": "Sweet BBQ Bacon Burger - $5.25"
                   }
                 ]
               }
@@ -118,11 +118,11 @@
                   {
                     "type": "TextBlock",
                     "horizontalAlignment": "left",
-                    "size": "medium",
+                    "size": "default",
                     "weight": "bolder",
-                    "color": "good",
+                    "color": "accent",
                     "wrap": true,
-                    "text": "Big Mac® - $2.50"
+                    "text": "Big Mac® - $3.50"
                   }
                 ]
               }
@@ -157,11 +157,11 @@
                   {
                     "type": "TextBlock",
                     "horizontalAlignment": "left",
-                    "size": "medium",
+                    "size": "default",
                     "weight": "bolder",
-                    "color": "good",
+                    "color": "accent",
                     "wrap": true,
-                    "text": "Quarter Pounder® - $3.50"
+                    "text": "Quarter Pounder® - $4.25"
                   }
                 ]
               }
@@ -196,11 +196,11 @@
                   {
                     "type": "TextBlock",
                     "horizontalAlignment": "left",
-                    "size": "medium",
+                    "size": "default",
                     "weight": "bolder",
-                    "color": "good",
+                    "color": "accent",
                     "wrap": true,
-                    "text": "Hamburger - $1.99"
+                    "text": "Hamburger - $2.25"
                   }
                 ]
               }
