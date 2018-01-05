@@ -5,9 +5,11 @@ const prompts = require('botbuilder-prompts');
 const McDdata = require('./data/menu.json');
 const shoppingCart = require('./shoppingCart');
 let cards = require('./cards');
+let _ = require('underscore');
 const ai = require('botbuilder-ai'); // LUIS
 const RegExpRecognizer = builder.RegExpRecognizer;
 const ActivityTypes = builder.ActivityTypes;
+let adaptiveCardHelper = require('./adaptiveCardHelpers');
 
 // Create server
 let server = restify.createServer();
@@ -26,70 +28,12 @@ server.post('/api/messages', botFrameworkAdapter.listen());
 // - Add storage so that we can track conversation & user state.
 // - Add a receiver to process incoming activities.
 
-function formatAdaptiveCard(card){
-    let adaptiveCard = {
-        "type" : "message",
-        "text" : "Example: " + card.name,
-        "attachments": [{
-            "contentType": "application/vnd.microsoft.card.adaptive",
-            "content": card.content
-        }]
-    }
-    return adaptiveCard;
-}
-
-function formatAdaptiveCardCart(context){
-
-    let currentCart = context.state.user.shoppingCart
-    let body = [
-        {
-            "type": "Container",
-            "items": [
-                {
-                    "type": "TextBlock",
-                    "text": "Your McDonalds Order",
-                    "weight": "bolder",
-                    "size": "medium"
-                }
-            ]
-        }
-    ];
-
-    // go through cart and add items to card
-    for(let i = 0; i < currentCart.length; i++){
-        let item = {
-            "type": "TextBlock",
-            "text": `${currentCart[i].Name} ${currentCart[i].Count}`,
-            "weight": "bolder",
-            "spacing": "medium"
-        }
-        body[0].items.push(item);
-    }
-
-    let adaptiveCard = {
-        "type": "message",
-        "text" : "Your Order",
-        "attachments": [{
-            "contentType": "application/vnd.microsoft.card.adaptive",
-            "content": {
-                "type" : "AdaptiveCard",
-                "version": "1.0",
-                "body": body
-            }
-        }]
-    }
-
-    console.log(JSON.stringify(adaptiveCard, null, 2));
-
-    return adaptiveCard;
-}
-
-// Init recognizers
+// Init recognizers, primitive, showcasing SDK v4 capability
 let recognizer = new RegExpRecognizer();
-recognizer.addIntent('breakfastMenu', /breakfastMenu/i);
-recognizer.addIntent('burgerMenu', /burgerMenu/i);
+recognizer.addIntent('breakfastMenu', /(breakfastMenu|breakfast menu)/i);
+recognizer.addIntent('burgerMenu', /(burgerMenu|burger menu)/i);
 
-
+// LUIS connection client
 function initLuisRecognizer () {
     const luisAppId = "4fdecb57-2404-4d0f-954b-4696c41c9b5e";
     const subscriptionKey = "c467e83e7f674c5f8c062acb21a1b949";
@@ -124,36 +68,6 @@ function resolveOneFromLuis(luisData){
     return {itemName, quantity};
 }
 
-function welcomeMessage () {
-    let adaptiveCard = {
-        "type" : "message",
-        "text" : "McDonalds",
-        "attachments": [{
-            "contentType": "application/vnd.microsoft.card.adaptive",
-            "content": {
-                "type": "AdaptiveCard",
-                "version": "1.0",
-                "body": [
-                {
-                    "type": "Image",
-                    "size": "auto",
-                    "url": "https://www.mcdonalds.com/is/image/content/dam/usa/documents/careers/benefits2.jpg"
-                },
-                {
-                    "type": "TextBlock",
-                    "text": "Welcome to McDonald's",
-                    "wrap": true
-                }
-                ]
-            }
-        }]
-    
-    }
-
-    return adaptiveCard;
-}
-
-
 const bot = new builder.Bot(botFrameworkAdapter)
     .use(new builder.ConsoleLogger())
     .use(new builder.MemoryStorage())
@@ -161,35 +75,32 @@ const bot = new builder.Bot(botFrameworkAdapter)
     .use(recognizer)
     .onReceive((context) => {
         if(context.ifIntent('breakfastMenu')){
-            context.reply(formatAdaptiveCard(cards.foodMenu.breakfast));
+            context.reply(adaptiveCardHelper.formatAdaptiveCard(cards.foodMenu.breakfast));
         }
         else if(context.ifIntent('burgerMenu')){
-            context.reply(formatAdaptiveCard(cards.foodMenu.burgers));
+            context.reply(adaptiveCardHelper.formatAdaptiveCard(cards.foodMenu.burgers));
         }
 
         if (context.request.type === builder.ActivityTypes.message) {
             return luisRecognizer.recognize(context)
             .then((results) => {
-
                 let luisData = results[0];
-                context.reply(`\nYour input generated the following LUIS results:`);
-                context.reply(`Intent name: ${luisData.name}\n\nScore: ${luisData.score}`);
-
-                // For testing, delete when in PROD
-                luisData.entities.forEach((entity) => {
-
-                    context.reply(`Detected entity: \n\nType: ${entity.type}\n\nValue: ${entity.value}\n\nScore: ${entity.score}`);
-                });
+                // FOR TESTING ONLY 
+                // context.reply(`\nYour input generated the following LUIS results:`);
+                // context.reply(`Intent name: ${luisData.name}\n\nScore: ${luisData.score}`);
+                // luisData.entities.forEach((entity) => {
+                //     context.reply(`Detected entity: \n\nType: ${entity.type}\n\nValue: ${entity.value}\n\nScore: ${entity.score}`);
+                // });
 
                 if(luisData.name == 'CheckMenu'){
 
-                    context.reply(formatAdaptiveCard(cards.foodMenu));
+                    context.reply(adaptiveCardHelper.formatAdaptiveCard(cards.foodMenu));
 
                 }else if(luisData.name == 'ViewCart'){
 
                     console.log(context.state.user.shoppingCart);
 
-                    context.reply(formatAdaptiveCardCart(context));   
+                    context.reply(adaptiveCardHelper.formatAdaptiveCardShoppingCart(context));   
 
                 }else if(luisData.name == 'AddItem'){
 
@@ -216,7 +127,6 @@ const bot = new builder.Bot(botFrameworkAdapter)
                 
             })
             .catch((err) => {
-                context.reply('There was an error connecting to the LUIS API');
                 console.log(err);
                 context.reply(err);
             });
@@ -225,11 +135,8 @@ const bot = new builder.Bot(botFrameworkAdapter)
             if(context.request.membersAdded){
                 var addedMember = context.request.membersAdded[0];
                 if(addedMember.id != context.request.recipient.id){
-                    context.reply(welcomeMessage());
+                    context.reply(adaptiveCardHelper.welcomeMessage());
                 }
             }
-        }
-        else {
-            //context.reply(`[${context.request.type} event detected]`);
         }
     });

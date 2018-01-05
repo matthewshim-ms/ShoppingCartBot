@@ -37,7 +37,7 @@
                 "items": [
                   {
                     "type": "TextBlock",
-                    "text": "Pico Guacamole, 100% Pure Beef 1/4 lb"
+                    "text": "Pico Guacamole Burger"
                   },
                   {
                     "type": "TextBlock",
@@ -77,7 +77,7 @@
                   {
                     "type": "TextBlock",
                     "wrap": true,
-                    "text": "Sweet BBQ Bacon, 100% Pure Beef 1/4 lb"
+                    "text": "Sweet BBQ Bacon Burger"
                   },
                   {
                     "type": "TextBlock",
@@ -155,7 +155,7 @@
                 "items": [
                   {
                     "type": "TextBlock",
-                    "text": "Quarter Pounder® with Cheese"
+                    "text": "Quarter Pounder®"
                   },
                   {
                     "type": "TextBlock",
