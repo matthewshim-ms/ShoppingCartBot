@@ -49,7 +49,6 @@ function resolveOneFromLuis(luisData){
      
     for(let i = 0; i < luisData.entities.length; i++){
         if(luisData.entities[i].type == 'builtin.number'){
-
             quantity = parseInt(luisData.entities[i].resolution.value);
             break;
         }
@@ -59,8 +58,10 @@ function resolveOneFromLuis(luisData){
     }
     // For now, only handle one 'item'
     for(let i = 0; i < luisData.entities.length; i++){
-        if(luisData.entities[i].type == 'ItemName')
+        if(luisData.entities[i].type == 'ItemName'){
             itemName = luisData.entities[i].resolution.values[0];
+            break;
+        }
     }
     if(!itemName){
         throw "Sorry that item doesn't exist in our Menu";
