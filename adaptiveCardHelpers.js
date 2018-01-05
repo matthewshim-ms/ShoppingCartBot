@@ -89,13 +89,15 @@ module.exports = adaptiveCardHelper = {
         }
         else  // cart is not empty
         {      
-            
+            let totalCost = 0;
             for(let i = 0; i < currentCart.length; i++){
         
                 // Gets the image URL from the Menu
                 let menuItem = _.find(menuItems, item => item.name == currentCart[i].Name);
                 let imageURL = menuItem.imageURL;
-        
+                let price = menuItem.price * currentCart[i].Count;
+                totalCost += price;
+
                 let addItem = {
                     "type": "Container",
                     "items": [
@@ -121,16 +123,23 @@ module.exports = adaptiveCardHelper = {
                             {
                                 "type": "TextBlock",
                                 "wrap": true,
-                                "text": `${currentCart[i].Name} - **Qty: ${currentCart[i].Count}**`,
+                                "text": `${currentCart[i].Name} - **Qty: ${currentCart[i].Count}** - $ ${price}`,
                             }
                             ]
-                        }
+                        },
                         ]
                     }
                     ]
                 }
                 body[0].items.push(addItem);
             }
+
+            // add totalCost to card
+            let costCard = {
+                "type": "TextBlock",
+                "text": `Total Cost: $ ${totalCost}`
+            }
+            body[0].items.push(costCard);
         }
         let adaptiveCard = {
             "type": "message",

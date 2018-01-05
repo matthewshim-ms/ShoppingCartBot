@@ -21,14 +21,15 @@ module.exports = shoppingCart = {
         let existingItem = _.find(cart, item => item.Name == name);
         if (existingItem) {
             existingItem.Count += count;
-            context.reply(`${count} ${item.Name}added to cart`);
         }
 
         if (!_.find(menuItems, item => item.name == name)) {
             throw `sorry ${name} is not on our menu`;
-        }
+        }else{
+            let price = _.findWhere(menuItems, {name : `${name}`}).price;
 
-        cart.push(new ShoppingItem(name, count));
+            cart.push(new ShoppingItem(name, count, price));
+        }
     },
 
     deleteItem: function(context, name) {
@@ -80,9 +81,10 @@ module.exports = shoppingCart = {
 }
 
 class ShoppingItem {
-    constructor (name, count) {
+    constructor (name, count, price) {
         this.Name = name;
         this.Count = count;
+        this.Price = price;
     }
 }
 // END 
