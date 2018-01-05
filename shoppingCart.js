@@ -59,6 +59,17 @@ module.exports = shoppingCart = {
         item.Count = count;
     },
 
+    clearCart: function(context){
+        let cart = context.state.user.shoppingCart;
+        if (!cart) {
+            throw "sorry you don't have anything in your cart yet";
+        }else{
+            while(cart.length > 0)
+                cart.pop();
+            throw "Order Cleared";
+        }
+    },
+
     view: function(context) {
         
     },

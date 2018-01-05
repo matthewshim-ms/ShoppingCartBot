@@ -128,6 +128,8 @@ const bot = new builder.Bot(botFrameworkAdapter)
 
                     // Update Item in cart
                     shoppingCart.updateItem(context, item.itemName, item.quantity);
+                }else if(luisData.name == 'ClearCart'){
+                    shoppingCart.clearCart(context);
                 }
             })
             .catch((err) => {
