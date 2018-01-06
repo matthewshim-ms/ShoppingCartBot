@@ -18,9 +18,11 @@ server.listen(process.env.port || process.env.PORT || 3978, function () {
 });
 
 // Create adapter
-const botFrameworkAdapter = new services.BotFrameworkAdapter({ 
-    appId: process.env.MICROSOFT_APP_ID, 
-    appPassword: process.env.MICROSOFT_APP_PASSWORD });
+const botFrameworkAdapter = new services.BotFrameworkAdapter({
+    appId: process.env.MicrosoftAppId,
+    appPassword: process.env.MicrosoftAppPassword });
+    // appId: process.env.MICROSOFT_APP_ID,
+    // appPassword: process.env.MICROSOFT_APP_PASSWORD });
 server.post('/api/messages', botFrameworkAdapter.listen());
 
 // Initialize bot by passing it adapter
@@ -46,14 +48,14 @@ function resolveOneFromLuis(luisData){
 
     let quantity;
     let itemName;
-     
+
     for(let i = 0; i < luisData.entities.length; i++){
         if(luisData.entities[i].type == 'builtin.number'){
             quantity = parseInt(luisData.entities[i].resolution.value);
             break;
         }
         else{
-            quantity = 1; 
+            quantity = 1;
         }
     }
     // For now, only handle one 'item'
@@ -87,7 +89,7 @@ const bot = new builder.Bot(botFrameworkAdapter)
             return luisRecognizer.recognize(context)
             .then((results) => {
                 let luisData = results[0];
-                // FOR TESTING ONLY 
+                // FOR TESTING ONLY
                 // context.reply(`\nYour input generated the following LUIS results:`);
                 // context.reply(`Intent name: ${luisData.name}\n\nScore: ${luisData.score}`);
                 // luisData.entities.forEach((entity) => {
@@ -100,12 +102,12 @@ const bot = new builder.Bot(botFrameworkAdapter)
 
                 }else if(luisData.name == 'ViewCart'){
 
-                    context.reply(adaptiveCardHelper.formatAdaptiveCardShoppingCart(context));   
+                    context.reply(adaptiveCardHelper.formatAdaptiveCardShoppingCart(context));
 
                 }else if(luisData.name == 'AddItem'){
 
                     let item = resolveOneFromLuis(luisData);
-           
+
                     // add Item to cart
                     try{
                         shoppingCart.addItem(context, item.itemName, item.quantity);
@@ -113,7 +115,7 @@ const bot = new builder.Bot(botFrameworkAdapter)
                     }catch(err){
                         context.reply("Sorry, we couldn't add that");
                     }
-                        
+
                 }else if(luisData.name == 'CheckOut'){
 
                     // Create receipt card and display
@@ -136,9 +138,9 @@ const bot = new builder.Bot(botFrameworkAdapter)
                     }catch(err){
                         context.reply("Sorry, could you try that again?");
                     }
-                    
+
                 }else if(luisData.name == 'UpdateItem'){
-                    
+
                     let item = resolveOneFromLuis(luisData);
 
                     // Update Item in cart

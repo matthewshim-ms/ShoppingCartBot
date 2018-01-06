@@ -1,10 +1,11 @@
 {
-  "name": "shoppingcartbot",
+  "name": "hello-chatconnector",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "azure-publish": "node publish.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,8 +14,11 @@
     "botbuilder-core": "^4.0.0-h4.2",
     "botbuilder-prompts": "^4.0.0-h4.1",
     "botbuilder-services": "^4.0.0-h4.1",
-    "fs": "0.0.1-security",
     "restify": "^6.3.4",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "zip-folder": "^1.0.0"
   }
 }
